@@ -12,6 +12,7 @@ function TeamMembers(){
         ${AddImageBox("Assets/Avatar.ico", "Adam Drummond", "MELONsquad Leader. Bringer of melons to MLH. Also loves a game of Chrome Dino!")}
         ${AddImageBox("Assets/blahaj.png", "BLAHAJ", "King of <a href=\"https://blahajgang.lol\">BLAHAJgang</a>, honorary fellow of MELONsquad. We love BLAHAJ!")}
         ${AddImageBox("Assets/ryan.png", "Ryan Swift", "#1 fan of MELONsquad, wishes it was a separate entity to <a href=\"https://blahajgang.lol\">BLAHAJgang</a> (never gonna happen!!)")}
+        ${AddImageBox("Assets/jack.png", "Jacklyn Biggin", "Leader of <a href=\"https://blahajgang.lol\">BLAHAJgang</a>, unable to consume melon (allergies - RIP). Honorary fellow of MELONsquad.")}
         `
 }
 
