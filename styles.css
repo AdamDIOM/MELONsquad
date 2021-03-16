@@ -1,13 +1,13 @@
 body{
     color:darkslategray;
-    background-color: rgb(34, 37, 41);
+    background-color: #442a35;
     padding:0 1vw 0 1vw;
     margin:0;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size:calc(2vmin + 1vmax);
 }
 header{
-    background-color: lightslategray;
+    background-color: #15992b;
     font-size: 2.7vh;
     height: 9vh;
     width:98%;
@@ -33,7 +33,7 @@ header{
     height:80vh;
     margin:0;
     width:100%;
-    background-color: rgb(41, 34, 80);
+    background-color: #15992b;
 }
 #nav ul{
     list-style-type:none;
@@ -42,19 +42,19 @@ header{
 }
 #nav ul li{
     background-color: white;
-    border-top:1px solid grey;
-    border-bottom: 1px solid grey;
+    border-top:1px solid #f44d61;
+    border-bottom: 1px solid #f44d61;
     color:rgb(88, 88, 88);
     padding:0.5vh 0.5vw 0.5vh 0.5vw;
     overflow-wrap:break-word;
     height:auto;
 }
 #nav ul li:hover{
-    background-color:lightgrey;
+    background-color:#be8980;
 }
 #nav ul li:active{
-    background-color: grey;
-    color:antiquewhite;
+    background-color: #f44d61;
+    color:#f4c4c4;
 }
 #nav, #section{
     height: 75vh;
@@ -64,7 +64,7 @@ header{
 }
 #nav{
     float:left;
-    background-color: grey;
+    background-color: #f44d61;
     width: 20%;
     padding:2.5vh 0vw 2.5vh 0vw;
 }
@@ -84,14 +84,14 @@ h2 #link:active{
 #section{
     float:right;
     width: calc(80% - 2vw);
-    background-color: antiquewhite;
+    background-color: #f4c4c4;
     padding:2.5vh 1vw 2.5vh 1vw;
 }
 #sectionHeading{
     margin:0;
 }
 code{
-    background-color:lightgrey;
+    background-color:#be8980;
     padding:1vmin;
     border-radius: 10px;
     display:block;
@@ -102,7 +102,7 @@ footer{
     margin:0;
     text-align: center;
     display:block;
-    background-color: rgb(34, 37, 41);
+    background-color: #442a35;
     height: 5vh;
     width:98%;
     padding:2.5vh 1% 2.5vh 1%;
@@ -112,33 +112,38 @@ footer{
     color:white;
 }
 #link:hover{
-    color:lightgrey;
+    color:light#f44d61;
 }
 #link:active{
-    color:antiquewhite;
+    color:#f4c4c4;
 }
 #image{
     max-width:75vw;
     max-height:75vh;
 }
 
-table{
-    display:table;
-    width:50vw;
-    margin-left:auto;
-    margin-right:auto;
-    border-collapse:collapse;
-}
-tr{
-    height:6vh;
-}
-td{
-    border:5px solid lime;
-    margin:0px;
-    width:33%;
-    text-align:center;
-    background-color:antiquewhite;
-}
 #content{
     margin-top:0px;
+}
+
+/*css for imagebox as seen in index.js*/
+
+#wideBox{
+    width:75vw;
+    height:20vh;
+    background-color:#f44d61;
+    padding:5px;
+}
+#boxImg{
+    display:block;
+    float:left;
+    height:19vh;
+}
+#title{
+    margin:0;
+    color:#f4c4c4;
+
+}
+#caption{
+    margin:0;
 }
