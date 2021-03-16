@@ -149,7 +149,8 @@ footer{
     display:block;
     float:left;
     height:19vh;
-    width:10vw;
+    width:32vh;
+    max-width:25vw;
     margin-right:10px;
     align-items: center;
     text-align:center;
