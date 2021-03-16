@@ -9,13 +9,22 @@ body{
 header{
     background-color: #15992b;
     font-size: 2.7vh;
-    height: 9vh;
+    height: 10vh;
     width:98%;
-    padding:0.5vh 1% 0.5vh 1%;
+    padding:0vh 1% 0vh 1%;
     margin:0;
     color:greenyellow;
     font-weight: 1000;
+    overflow:hidden;
 }
+
+#logo{
+    height:9.5vh;
+    max-width:100%;
+    display:block;
+    float:left;
+}
+
 #left{
     display:block;
     float: left;
