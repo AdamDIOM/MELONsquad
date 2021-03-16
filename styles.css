@@ -149,3 +149,16 @@ footer{
 #caption{
     margin:0;
 }
+
+a{
+    color:#15992b;
+}
+a:visited{
+    color:#442a35;
+}
+a:hover{
+    color:limegreen;
+}
+a:active{
+    color:#f4c4c4;
+}
