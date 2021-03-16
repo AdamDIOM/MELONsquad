@@ -7,9 +7,11 @@ function About(){
 }
 
 function TeamMembers(){
-    section.innerHTML = "<h1 id=\"sectionHeading\">Team Members</h1>";
-    section.innerHTML += "<img src=\"Assets/Avatar.ico\">";
-    section.innerHTML += "Adam Drummond";
+    section.innerHTML = `
+        <h1 id="sectionHeading">Team Members</h1>
+        ${AddImageBox("Assets/Avatar.ico", "Adam Drummond", "MELONsquad Leader. Bringer of melons to MLH. Also loves a game of Chrome Dino!")}
+        ${AddImageBox("Assets/blahaj.png", "BLAHAJ", "King of <a href=\"https://blahajgang.lol\">BLAHAJgang</a>, honorary fellow of MELONsquad. We love BLAHAJ!")}
+        `
 }
 
 function History(){
@@ -18,4 +20,16 @@ function History(){
 
 function Art(){
     section.innerHTML = "<h1 id=\"sectionHeading\">Art</h1>"
+}
+
+function AddImageBox(source, title, caption){
+    string = `
+        <div id="wideBox">
+            <img src="${source}" id="boxImg">
+            <p id="title">${title}</p>
+            <p id="caption">${caption}</p>
+        </div>
+    `
+
+    return string;
 }
