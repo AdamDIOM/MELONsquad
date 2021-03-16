@@ -140,7 +140,9 @@ footer{
 
 #wideBox{
     width:75vw;
-    height:20vh;
+    max-height:20vh;
+    max-width:98%;
+    height:25vw;
     background-color:#f44d61;
     padding:5px;
     margin-bottom: 3.5vh;
@@ -148,7 +150,7 @@ footer{
 #boxImg{
     display:block;
     float:left;
-    height:19vh;
+    max-height:19vh;
     width:32vh;
     max-width:25vw;
     margin-right:10px;
@@ -158,7 +160,8 @@ footer{
 }
 #boxImg img{
     max-width:100%;
-    max-height:100%;
+    width:auto;
+    max-height:19vh;
 }
 #title{
     margin:0;
