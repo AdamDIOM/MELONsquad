@@ -43,7 +43,9 @@ async function AddImageBoxes(imageDirectory, jsonFile){
 function AddImageBox(source, title, caption){
     box = `
         <div id="wideBox">
-            <img src="Assets/${source}" id="boxImg">
+            <div id="boxImg">
+                <img src="Assets/${source}">
+            </div>
             <p id="title">${title}</p>
             <p id="caption">${caption}</p>
         </div>
