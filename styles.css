@@ -19,8 +19,7 @@ header{
 }
 
 #logo{
-    /*height:9.5vh;*/
-    height:20px;
+    height:5vh;
     max-width:100%;
     display:block;
     float:left;
