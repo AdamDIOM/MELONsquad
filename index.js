@@ -24,6 +24,26 @@ async function Art(){
     section.innerHTML += art;
 }
 
+function JoinSquad(){
+    section.innerHTML = `
+    
+    <h1 id="sectionHeading">Join the Squad!</h1>
+    <div id="instructions">
+        <h2>Instructions</h2>
+        <ol>
+            <li>Click Login</li>
+            <li>Log in</li>
+            <li>Click Profile</li>
+            <li>Scroll to Guild Membership</li>
+            <li>Select BLAHAJGang</li>
+            <li>Visit the BLAHAJgang Discord Channel</li>
+            <li>Add the melon and shark emoji to your nickname</li>
+        </ol>
+    </div>
+    <iframe src="https://discord.mlh.io/profile">
+    `;
+}
+
 async function AddImageBoxes(imageDirectory, jsonFile){
     const response = await fetch("JSON/" + jsonFile + '.json')
     .then(response => response.json());

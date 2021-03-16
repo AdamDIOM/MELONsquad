@@ -136,6 +136,19 @@ footer{
     margin-top:0px;
 }
 
+iframe{
+    width:50vw;
+    height:70vh;
+    display:block;
+    float:left;
+}
+#instructions{
+    width:25vw;
+    height:70vh;
+    display:block;
+    float:right;
+}
+
 /*css for imagebox as seen in index.js*/
 
 #wideBox{
