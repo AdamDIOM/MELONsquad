@@ -1,0 +1,144 @@
+body{
+    color:darkslategray;
+    background-color: rgb(34, 37, 41);
+    padding:0 1vw 0 1vw;
+    margin:0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:calc(2vmin + 1vmax);
+}
+header{
+    background-color: lightslategray;
+    font-size: 2.7vh;
+    height: 9vh;
+    width:98%;
+    padding:0.5vh 1% 0.5vh 1%;
+    margin:0;
+    color:greenyellow;
+    font-weight: 1000;
+}
+#left{
+    display:block;
+    float: left;
+}
+#center{
+    display:block;
+    float:none;
+    text-align:center;
+}
+#right{
+    display:block;
+    float:right;
+}
+#main{
+    height:80vh;
+    margin:0;
+    width:100%;
+    background-color: rgb(41, 34, 80);
+}
+#nav ul{
+    list-style-type:none;
+    padding:0;
+    margin:0;
+}
+#nav ul li{
+    background-color: white;
+    border-top:1px solid grey;
+    border-bottom: 1px solid grey;
+    color:rgb(88, 88, 88);
+    padding:0.5vh 0.5vw 0.5vh 0.5vw;
+    overflow-wrap:break-word;
+    height:auto;
+}
+#nav ul li:hover{
+    background-color:lightgrey;
+}
+#nav ul li:active{
+    background-color: grey;
+    color:antiquewhite;
+}
+#nav, #section{
+    height: 75vh;
+    margin:0;
+    display:block;
+    overflow-y:auto;
+}
+#nav{
+    float:left;
+    background-color: grey;
+    width: 20%;
+    padding:2.5vh 0vw 2.5vh 0vw;
+}
+h1{
+    font-size:calc(4vmin + 1vmax);
+}
+h2, h2 #link{
+    font-size:calc(2vmin + 1vmax);
+    color:darkslategray;
+}
+h2 #link:hover{
+    color:forestgreen;
+}
+h2 #link:active{
+    color: lime;
+}
+#section{
+    float:right;
+    width: calc(80% - 2vw);
+    background-color: antiquewhite;
+    padding:2.5vh 1vw 2.5vh 1vw;
+}
+#sectionHeading{
+    margin:0;
+}
+code{
+    background-color:lightgrey;
+    padding:1vmin;
+    border-radius: 10px;
+    display:block;
+    width:auto;
+    color:black;
+}
+footer{
+    margin:0;
+    text-align: center;
+    display:block;
+    background-color: rgb(34, 37, 41);
+    height: 5vh;
+    width:98%;
+    padding:2.5vh 1% 2.5vh 1%;
+    color:white;
+}
+#link{
+    color:white;
+}
+#link:hover{
+    color:lightgrey;
+}
+#link:active{
+    color:antiquewhite;
+}
+#image{
+    max-width:75vw;
+    max-height:75vh;
+}
+
+table{
+    display:table;
+    width:50vw;
+    margin-left:auto;
+    margin-right:auto;
+    border-collapse:collapse;
+}
+tr{
+    height:6vh;
+}
+td{
+    border:5px solid lime;
+    margin:0px;
+    width:33%;
+    text-align:center;
+    background-color:antiquewhite;
+}
+#content{
+    margin-top:0px;
+}
