@@ -30,7 +30,7 @@ header{
     float:right;
 }
 #main{
-    height:80vh;
+    height:83vh;
     margin:0;
     width:100%;
     background-color: #15992b;
@@ -57,7 +57,7 @@ header{
     color:#f4c4c4;
 }
 #nav, #section{
-    height: 75vh;
+    height: 78vh;
     margin:0;
     display:block;
     overflow-y:auto;
@@ -103,7 +103,8 @@ footer{
     text-align: center;
     display:block;
     background-color: #442a35;
-    height: 5vh;
+    font-size:calc(1vmin + 1vmax);
+    height: 1vh;
     width:98%;
     padding:2.5vh 1% 2.5vh 1%;
     color:white;
