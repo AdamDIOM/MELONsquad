@@ -43,5 +43,10 @@
         "image"     : "hhvv970.png",
         "name"      : "hhvv970",
         "caption"   : "Chief of melon security. He's on the frontline of our army so don't try to fite him — you will always lose!!"
+    },
+    "gagan" : {
+        "image"     : "gagan.png",
+        "name"      : "Gagan Vats",
+        "caption"   : "It's his first ever hackathon so go nice on him. Never mess with a hacky pig otherwise you'll get hit with its lightsaber..."
     }
 }
