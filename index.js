@@ -33,7 +33,7 @@ function MELONsquad(){
             JoinSquad();
             break;
         default:    
-            section.innerHTML = "<h1 id=\"sectionHeading\">MELONsquad</h1>"
+            section.innerHTML = "<h1 id=\"sectionHeading\">MELONsquad</h1><h1>🍉🦈</h1>"
             break;
     }
 }
