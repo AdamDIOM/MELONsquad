@@ -1,5 +1,35 @@
 function MELONsquad(){
-    section.innerHTML = "<h1 id=\"sectionHeading\">MELONsquad</h1>"
+    console.log(window.location.href);
+    for(c in window.location.href){
+        if(window.location.href[c] == '#'){
+            console.log(c);
+            pos = c;
+            break;
+        }
+    }
+    console.log(c);
+    ending = window.location.href.substring(c);
+    console.log(ending);
+    switch(ending){
+        case "#about":
+            About()
+            break;
+        case "#team":
+            TeamMembers();
+            break;
+        case "#history":
+            History();
+            break;
+        case "#art":
+            Art();
+            break;
+        case "#join":
+            JoinSquad();
+            break;
+        default:    
+            section.innerHTML = "<h1 id=\"sectionHeading\">MELONsquad</h1>"
+            break;
+    }
 }
 
 function About(){
