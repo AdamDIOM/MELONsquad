@@ -40,7 +40,7 @@ function JoinSquad(){
             <li>Add the melon and shark emoji to your nickname</li>
         </ol>
     </div>
-    <iframe src="https://discord.mlh.io/profile">
+    <iframe src="https://discord.mlh.io/profile" SameSite=Strict>
     `;
 }
 
