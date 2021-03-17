@@ -185,6 +185,7 @@ iframe{
 }
 #caption{
     margin:0;
+    font-size:calc(1.75vmin + 1vmax);
 }
 
 a{
