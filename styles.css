@@ -200,3 +200,9 @@ a:hover{
 a:active{
     color:#f4c4c4;
 }
+
+#blahaj{
+    width:70vw;
+    max-height:56vh;
+    max-width:56vh;
+}
