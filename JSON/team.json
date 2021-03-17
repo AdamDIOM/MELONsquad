@@ -27,6 +27,11 @@
     "midhat" : {
         "image"     : "midhat.png",
         "name"      : "Midhat",
-        "caption"   : "The mysterious Midhat we don't know where he came from, yet he's a cool guy. He recently adopted a blahaj"
-    } 
+        "caption"   : "The mysterious Midhat... we don't know where he came from, yet he's a cool guy. He recently adopted a blahaj"
+    },
+    "surya" : {
+        "image"     : "surya.png",
+        "name"      : "Surya",
+        "caption"   : "I don't think he knows exactly what's going on and we kind of forced him into <a href=\"https://blahajgang.lol\">BLAHAJgang</a> but he's here now!"
+    }
 }
