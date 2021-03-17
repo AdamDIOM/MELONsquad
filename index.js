@@ -73,7 +73,7 @@ function JoinSquad(){
             <li>Scroll to Guild Membership</li>
             <li>Select BLAHAJGang</li>
             <li>Visit the BLAHAJgang Discord Channel</li>
-            <li>Add the melon and shark emoji to your nickname</li>
+            <li>Add the melon and shark emoji to your nickname (🍉🦈)</li>
         </ol>
     </div>
     <iframe src="https://discord.mlh.io/profile" SameSite=Strict>
