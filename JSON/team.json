@@ -33,5 +33,10 @@
         "image"     : "surya.png",
         "name"      : "Surya",
         "caption"   : "I don't think he knows exactly what's going on and we kind of forced him into <a href=\"https://blahajgang.lol\">BLAHAJgang</a> but he's here now!"
+    },
+    "jenna" : {
+        "image"     : "jenna.png",
+        "name"      : "Jenna Everard",
+        "caption"   : "We don't know much about Jenna but it's her first Local Hack Day so BE KIND TO HER AND GIVE HER BLAHAJ LOVE"
     }
 }
