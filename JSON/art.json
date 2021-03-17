@@ -23,5 +23,10 @@
         "image"     : "Jacklyn from MLH-1.png",
         "name"      : "Jacklyn from MLH",
         "caption"   : "BLAHAJ themed photograph"
+    },
+    "bhasmasur-1" : {
+        "image"     : "bhasmasur-1.png",
+        "name"      : "Gagan Vats",
+        "caption"   : "Scary melon imagery"
     }
 }
