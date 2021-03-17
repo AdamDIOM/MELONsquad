@@ -18,10 +18,15 @@
         "image"     : "ryan.png",
         "name"      : "Ryan Swift",
         "caption"   : "#1 fan of MELONsquad, wishes it was a separate entity to <a href=\"https://blahajgang.lol\">BLAHAJgang</a> (never gonna happen!!)"
-    } ,
+    },
     "ayush" : {
         "image"     : "ayush.png",
         "name"      : "Ayush Ganotra",
         "caption"   : "Doesn't really know how to pronounce BLAHAJ but knows how to pronounce melon so we welcomed him into the squad."
-    }
+    },
+    "midhat" : {
+        "image"     : "midhat.png",
+        "name"      : "Midhat",
+        "caption"   : "The mysterious Midhat... was unable to join the squad until now as he didn't know how to change a nickname..."
+    } 
 }
