@@ -48,5 +48,10 @@
         "image"     : "gagan.png",
         "name"      : "Gagan Vats",
         "caption"   : "It's his first ever hackathon so go nice on him. Never mess with a hacky pig otherwise you'll get hit with its lightsaber..."
+    },
+    "leila" : {
+        "image"     : "leila.png",
+        "name"      : "Leila",
+        "caption"   : "Another beginner... Treat her with care. We gotta protect these new hackers like they've been hacking for years!"
     }
 }
