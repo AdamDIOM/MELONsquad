@@ -28,5 +28,10 @@
         "image"     : "midhat.png",
         "name"      : "Midhat",
         "caption"   : "The mysterious Midhat... was unable to join the squad until now as he didn't know how to change a nickname..."
-    } 
+    },
+    "surya" : {
+        "image"     : "surya.png",
+        "name"      : "Surya",
+        "caption"   : "I don't think he knows exactly what's going on and we kind of forced him into <a href=\"https://blahajgang.lol\">BLAHAJgang</a> but he's here now!"
+    },
 }
