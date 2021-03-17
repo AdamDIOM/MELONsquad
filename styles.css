@@ -28,6 +28,7 @@ header{
 #left{
     display:block;
     float: left;
+    padding-right:1vw;
 }
 #center{
     display:block;
@@ -37,6 +38,7 @@ header{
 #right{
     display:block;
     float:right;
+    padding-left:1vw;
 }
 #main{
     height:83vh;
