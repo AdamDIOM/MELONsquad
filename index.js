@@ -10,11 +10,17 @@ function MELONsquad(){
     console.log(c);
     ending = window.location.href.substring(c);
     console.log(ending);
-    switch(ending){
+    switch(ending.toLowerCase()){
         case "#about":
             About()
             break;
         case "#team":
+            TeamMembers();
+            break;
+        case "#squad":
+            TeamMembers();
+            break;
+        case "#gang":
             TeamMembers();
             break;
         case "#history":
@@ -37,7 +43,7 @@ function About(){
 }
 
 async function TeamMembers(){
-    section.innerHTML = "<h1 id=\"sectionHeading\">Team</h1>"
+    section.innerHTML = "<h1 id=\"sectionHeading\">The Squad</h1>"
     team = await AddImageBoxes("Team", "team");
     console.log(team);
     section.innerHTML += team;
@@ -57,7 +63,7 @@ async function Art(){
 function JoinSquad(){
     section.innerHTML = `
     
-    <h1 id="sectionHeading">Join the Squad!</h1>
+    <h1 id="sectionHeading">Join us!</h1>
     <div id="instructions">
         <h2>Instructions</h2>
         <ol>
