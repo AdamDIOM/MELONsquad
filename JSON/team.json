@@ -13,7 +13,14 @@
         "image"     : "jack.png",
         "name"      : "Jacklyn Biggin",
         "caption"   : "Leader of <a href=\"https://blahajgang.lol\">BLAHAJgang</a>, unable to consume melon (allergies - RIP). Honorary fellow of MELONsquad."
+
     },
+    "stephen" : {
+        "image"     : "stephen.png",
+        "name"      : "Stephen",
+        "caption"   : "Has the <a href=\"https://blahajgang.lol\">BLAHAJgang</a> profile pic but didn't join. Honorary fellow of MELONsquad because we like him."
+    },
+
     "ryan" : {
         "image"     : "ryan.png",
         "name"      : "Ryan Swift",
