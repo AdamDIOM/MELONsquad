@@ -4,11 +4,13 @@
         "hackathons" : [
             {
                 "name" : "Hack and Wellness",
-                "prize" : "Best domain from Domain.com"
+                "prize" : "Best domain from Domain.com",
+                "link" : "https://hackandwellness.devpost.com/"
             },
             {
                 "name" : "CorgiHacks",
-                "prize" : "Best domain from GoDaddy"
+                "prize" : "Best domain from GoDaddy",
+                "link" : "https://corgihacks.devpost.com/"
             }
         ]
     },
@@ -17,15 +19,18 @@
         "hackathons" : [
             {
                 "name" : "Own the Internet Hackathon",
-                "prize" : "Finalist & Judges Choice Award"
+                "prize" : "Finalist & Judges Choice Award",
+                "link" : "https://gitcoin.co/hackathon/own-the-internet"
             },
             {
                 "name" : "Columbia DivHacks",
-                "prize" : "Pinterest Anti-Racism Hack Honorable Mention"
+                "prize" : "Pinterest Anti-Racism Hack Honorable Mention",
+                "link" : "https://divhacks2020.devpost.com/"
             },
             {
                 "name" : "CorgiHacks",
-                "prize" : "Third Overall & Best Use of Linode"
+                "prize" : "Third Overall & Best Use of Linode",
+                "link" : "https://corgihacks.devpost.com/"
             }
         ]
     },
@@ -34,11 +39,13 @@
         "hackathons" : [
             {
                 "name" : "Hack Your Portfolio",
-                "prize" : "Best Use of Google Cloud"
+                "prize" : "Best Use of Google Cloud",
+                "link" : "https://hackyourportfolio.devpost.com/"
             },
             {
                 "name" : "WiCHacks 2021",
-                "prize" : "WiC: Most Innovative Hack"
+                "prize" : "WiC: Most Innovative Hack",
+                "link" : "https://wichacks-2021.devpost.com/"
             }
         ]
     },
@@ -47,7 +54,8 @@
         "hackathons" : [
             {
                 "name" : "Snakes and Hackers",
-                "prize" : "3rd overall"
+                "prize" : "3rd overall",
+                "link" : "https://snakesandhackers.devpost.com/"
             }
         ]
     }

@@ -143,13 +143,15 @@ async function HackathonHistory(){
 
     for(hacker in json){
         console.log(json[hacker]);
-        console.log(json[hacker].hackathons[0].name)
+        console.log(json[hacker].hackathons[0].name);
         historystring += `
             <div id="historyOuter">
                 <h2>${json[hacker].name}</h2>
             `
             for(hackathon in json[hacker].hackathons){
-                historystring += AddImageBox("Hackathons/" + json[hacker].hackathons[hackathon].name + ".png", json[hacker].hackathons[hackathon].name, json[hacker].hackathons[hackathon].prize)
+                historystring += `<a href="${json[hacker].hackathons[hackathon].link}">`;
+                historystring += AddImageBox("Hackathons/" + json[hacker].hackathons[hackathon].name + ".png", json[hacker].hackathons[hackathon].name, json[hacker].hackathons[hackathon].prize);
+                historystring += `</a>`;
             }
             
             

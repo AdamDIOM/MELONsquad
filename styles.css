@@ -162,6 +162,11 @@ iframe{
     padding:5px;
     margin-top: 3.5vh;
 }
+
+#wideBox:hover{
+    background-color:#d22b3f;
+}
+
 #boxImg{
     display:block;
     float:left;
@@ -209,6 +214,16 @@ iframe{
 }
 #historyOuter img{
     max-height:9.5vh;
+}
+#historyOuter a{
+    text-decoration: none;
+    color: darkslategray;
+}
+#historyOuter a:hover, #historyOuter a:visited{
+    color:darkslategray;
+}
+#historyOuter a:hover #caption{
+    text-decoration:underline;
 }
 
 a{
