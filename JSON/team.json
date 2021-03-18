@@ -26,7 +26,10 @@
         "caption"   : "#1 fan of MELONsquad, wishes it was a separate entity to <a href=\"https://blahajgang.lol\">BLAHAJgang</a> (never gonna happen!!)"
     },
     "ayush" : {
-        "image"     : "ayush.png",
+        "image"     : [
+            "ayush.png",
+            "ayush-2.png"
+        ],
         "name"      : "Ayush Ganotra",
         "caption"   : "Doesn't really know how to pronounce BLAHAJ but knows how to pronounce melon so we welcomed him into the squad."
     },
