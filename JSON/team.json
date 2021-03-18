@@ -65,5 +65,10 @@
         "image"     : "willl.png",
         "name"      : "Will Lifferth",
         "caption"   : "Will is pretty awesome. He's the one who brought the leader of <a href=\"https://blahajgang.lol\">BLAHAJgang</a> to us. What a legend!!"
+    },
+    "ahelee" : {
+        "image"     : "ahelee.png",
+        "name"      : "Ahelee",
+        "caption"   : "This ain't her first Local Hack Day... she knows what to expect. She's here for the melons through and through!"
     }
 }
