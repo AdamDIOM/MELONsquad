@@ -42,5 +42,14 @@
 
             }
         ]
+    },
+    "midhat" : {
+        "name" : "Midhat Alkhateeb",
+        "hackathons" : [
+            {
+                "name" : "Snakes and Hackers",
+                "prize" : "3rd overall"
+            }
+        ]
     }
 }
