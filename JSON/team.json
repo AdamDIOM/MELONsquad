@@ -72,5 +72,10 @@
         "image"     : "ahelee.png",
         "name"      : "Ahelee",
         "caption"   : "This ain't her first Local Hack Day... she knows what to expect. She's here for the melons through and through!"
+    },
+    "malak" : {
+        "image" : "malak.png",
+        "name" : "Malak Abdeldayem",
+        "caption" : "Seems to know more than all of us combined yet she's never been on the MELON scene before??"
     }
 }
