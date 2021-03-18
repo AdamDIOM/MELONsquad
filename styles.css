@@ -160,12 +160,13 @@ iframe{
     height:25vw;
     background-color:#f44d61;
     padding:5px;
-    margin-bottom: 3.5vh;
+    margin-top: 3.5vh;
 }
 #boxImg{
     display:block;
     float:left;
     max-height:19vh;
+    height:100%;
     width:32vh;
     max-width:25vw;
     margin-right:10px;
@@ -186,6 +187,28 @@ iframe{
 #caption{
     margin:0;
     font-size:calc(1.75vmin + 1vmax);
+}
+
+#historyOuter{
+    background-color:#15992b;
+    padding:1vw;
+    margin-bottom:3vh;
+}
+#historyOuter h2{
+    color:#f4c4c4;
+    margin:0;
+}
+#historyOuter #wideBox{
+    max-height:10vh;
+    height:12.5vw;
+    margin-top:1.5vh;
+}
+#historyOuter #boxImg{
+    max-height:9.5vh;
+    max-width:12.5vw;
+}
+#historyOuter img{
+    max-height:9.5vh;
 }
 
 a{
