@@ -12,23 +12,6 @@
             }
         ]
     },
-    "jenna" : {
-        "name" : "Jenna Everard",
-        "hackathons" : [
-            {
-                "name" : "Own the Internet Hackathon",
-                "prize" : "Finalist & Judges Choice Award"
-            },
-            {
-                "name" : "Columbia DivHacks",
-                "prize" : "Pinterest Anti-Racism Hack Honorable Mention"
-            },
-            {
-                "name" : "CorgiHacks",
-                "prize" : "Third Overall & Best Use of Linode"
-            }
-        ]
-    },
     "ahelee" : {
         "name" : "Ahelee Bhattacharya",
         "hackathons" : [
@@ -39,7 +22,15 @@
             {
                 "name" : "WiCHacks 2021",
                 "prize" : "WiC: Most Innovative Hack"
-
+            }
+        ]
+    }
+    "midhat" : {
+        "name" : "Midhat Alkhateeb",
+        "hackathons" : [
+            {
+                "name" : "Snakes and Hackers",
+                "place" : "3rd overall"
             }
         ]
     }
