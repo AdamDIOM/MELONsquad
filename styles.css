@@ -215,16 +215,15 @@ iframe{
 #historyOuter img{
     max-height:9.5vh;
 }
-#historyOuter a{
-    text-decoration: none;
-    color: darkslategray;
-}
-#historyOuter a:hover, #historyOuter a:visited{
-    color:darkslategray;
-}
 #historyOuter a:hover #caption{
     text-decoration:underline;
 }
+
+#noformat{
+    color:darkslategray;
+    text-decoration: none;
+}
+
 
 a{
     color:#15992b;

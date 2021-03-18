@@ -64,7 +64,7 @@ async function History(){
 
 async function Art(){
     section.innerHTML = "<h1 id=\"sectionHeading\">Art</h1>"
-    art = await AddImageBoxes("Art", "art");
+    art = await AddImageBoxes("Art", "art", true);
     //console.log(art);
     section.innerHTML += art;
 }
@@ -89,7 +89,7 @@ function JoinSquad(){
     `;
 }
 
-async function AddImageBoxes(imageDirectory, jsonFile){
+async function AddImageBoxes(imageDirectory, jsonFile, link = false){
     const response = await fetch("JSON/" + jsonFile + '.json')
     .then(response => response.json());
     json = response
@@ -103,7 +103,7 @@ async function AddImageBoxes(imageDirectory, jsonFile){
             imageurl = json[user].image;
         } catch (error) {
             imageurl = "nopic";
-        }*/
+        }
         if(true){
             console.log("file exists");
             imageurl = json[user].image;
@@ -111,17 +111,33 @@ async function AddImageBoxes(imageDirectory, jsonFile){
         else{
             imageurl = "nopic";
         }
+        console.log(imageurl);
+        console.log(Array.isArray(imageurl));*/
         
-        team += AddImageBox(imageDirectory + "/" + imageurl, json[user].name, json[user].caption);
+        if(!Array.isArray(json[user].image)){
+            imageurl = json[user].image;
+        } else {
+            console.log(json[user].image.length);
+            imgNum = Math.floor(Math.random() * (json[user].image.length));
+            console.log(imgNum);
+            imageurl = json[user].image[imgNum];
+        }
+
+        team += AddImageBox(imageDirectory + "/" + imageurl, json[user].name, json[user].caption, link);
     }
     //console.log(team);
 
     return team;
 }
 
-function AddImageBox(imageSrc, title, caption){
-    
-    box = `
+function AddImageBox(imageSrc, title, caption, link){
+    box = "";
+    if(link){
+        box += `
+            <a id="noformat" href="Assets/${imageSrc}" target="_blank">
+        `
+    }
+    box += `
         <div id="wideBox">
             <div id="boxImg">
                 <img src="Assets/${imageSrc}">
@@ -130,6 +146,11 @@ function AddImageBox(imageSrc, title, caption){
             <p id="caption">${caption}</p>
         </div>
     `
+    if(link){
+        box += `
+            </a>
+        `
+    }
 
     return box;
 }
@@ -149,7 +170,7 @@ async function HackathonHistory(){
                 <h2>${json[hacker].name}</h2>
             `
             for(hackathon in json[hacker].hackathons){
-                historystring += `<a href="${json[hacker].hackathons[hackathon].link}">`;
+                historystring += `<a href="${json[hacker].hackathons[hackathon].link}" target="_blank" id="noformat">`;
                 historystring += AddImageBox("Hackathons/" + json[hacker].hackathons[hackathon].name + ".png", json[hacker].hackathons[hackathon].name, json[hacker].hackathons[hackathon].prize);
                 historystring += `</a>`;
             }
