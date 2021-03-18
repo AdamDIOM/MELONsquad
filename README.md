@@ -8,4 +8,5 @@ This page features some of our team members
 2. Fork this project
 3. Upload the image of yourself to the /Assets/Team folder
 4. Edit JSON/team.json to add your name, image file name and caption
+  * If you have multiple images for one person, style image file name as an array e.g. [image1, image2]
 5. Submit a pull request and wait for approval!
