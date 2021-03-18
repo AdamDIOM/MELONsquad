@@ -1,0 +1,15 @@
+{
+    "adam" : {
+        "name" : "Adam Drummond",
+        "hackathons" : [
+            {
+                "name" : "Hack and Wellness",
+                "prize" : "Best domain from Domain.com"
+            },
+            {
+                "name" : "CorgiHacks",
+                "prize" : "Best domain from GoDaddy"
+            }
+        ]
+    }
+}
