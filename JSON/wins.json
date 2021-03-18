@@ -12,6 +12,23 @@
             }
         ]
     },
+    "jenna" : {
+        "name" : "Jenna Everard",
+        "hackathons" : [
+            {
+                "name" : "Own the Internet Hackathon",
+                "prize" : "Finalist & Judges Choice Award"
+            },
+            {
+                "name" : "Columbia DivHacks",
+                "prize" : "Pinterest Anti-Racism Hack Honorable Mention"
+            },
+            {
+                "name" : "CorgiHacks",
+                "prize" : "Third Overall & Best Use of Linode"
+            }
+        ]
+    },
     "ahelee" : {
         "name" : "Ahelee Bhattacharya",
         "hackathons" : [
