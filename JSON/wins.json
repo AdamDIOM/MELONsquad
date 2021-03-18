@@ -11,5 +11,18 @@
                 "prize" : "Best domain from GoDaddy"
             }
         ]
+    },
+    "ahelee" : {
+        "name" : "Ahelee Bhattacharya",
+        "hackathons" : [
+            {
+                "name" : "Hack Your Portfolio",
+                "prize" : "Best Use of Google Cloud"
+            },
+            {
+                "name" : "WiCHacks 2021",
+                "prize" : "WiC: Most Innovative Hack"
+            }
+        ]
     }
 }
