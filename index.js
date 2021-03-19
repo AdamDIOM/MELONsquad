@@ -56,6 +56,8 @@ async function History(){
     section.innerHTML = `
         <h1 id="sectionHeading">History</h1>
         <h2>It's time to make history by winning Local Hack Day: Share together!</h2>
+        
+        <h2>Find below some of the historical hackathon prizes our MELONsquad members have won... this is why we will be the best squad at LHD: Share!</h2>
         `
     hHistory = await HackathonHistory();
     console.log(hHistory);
