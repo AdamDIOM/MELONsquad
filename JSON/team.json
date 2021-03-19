@@ -100,5 +100,10 @@
         "image" : "musty.png",
         "name" : "Musty",
         "caption" : "He comes from the UK and well that's just awesome... he's a fan of bread too so that's why he's a great member of MELONsquad"
+    },
+    "fawziyah" : {
+        "image" : "fawziyah.png",
+        "name" : "Fawziyah",
+        "caption" : "Fawziyah is awesome!! She is knowledgeable at basically everything... Make sure to ask her about the difference between 'quid' and 'pound'"
     }
 }
