@@ -82,5 +82,10 @@
         "image" : "jamie.png",
         "name" : "Jamie Liao",
         "caption" : "'WE GOT ONE OF THE BEST PEOPLE IN THE WORLD IN THE BLAHAJGANG FRIENDS' - Jack... need we say more?"
+    },
+    "nathan" : {
+        "image" : "nathan.png",
+        "name" : "Nathan Dimmer",
+        "caption" : "It took a while to persuade him to join the squad. Now he's here, he'll regret not joining earlier!"
     }
 }
