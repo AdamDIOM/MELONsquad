@@ -26,7 +26,10 @@
         "caption"   : "#1 fan of MELONsquad, wishes it was a separate entity to <a href=\"https://blahajgang.lol\">BLAHAJgang</a> (never gonna happen!!)"
     },
     "ayush" : {
-        "image"     : "ayush.png",
+        "image"     : [
+            "ayush.png",
+            "ayush-2.png"
+        ],
         "name"      : "Ayush Ganotra",
         "caption"   : "Doesn't really know how to pronounce BLAHAJ but knows how to pronounce melon so we welcomed him into the squad."
     },
@@ -69,5 +72,10 @@
         "image"     : "ahelee.png",
         "name"      : "Ahelee",
         "caption"   : "This ain't her first Local Hack Day... she knows what to expect. She's here for the melons through and through!"
+    },
+    "malak" : {
+        "image" : "malak.png",
+        "name" : "Malak Abdeldayem",
+        "caption" : "Seems to know more than all of us combined yet she's never been on the MELON scene before??"
     }
 }
