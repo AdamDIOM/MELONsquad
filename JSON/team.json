@@ -77,5 +77,10 @@
         "image" : "malak.png",
         "name" : "Malak Abdeldayem",
         "caption" : "Seems to know more than all of us combined yet she's never been on the MELON scene before??"
+    },
+    "jamie" : {
+        "image" : "jamie.png",
+        "name" : "Jamie Liao",
+        "caption" : "'WE GOT ONE OF THE BEST PEOPLE IN THE WORLD IN THE BLAHAJGANG FRIENDS' - Jack... need we say more?"
     }
 }
