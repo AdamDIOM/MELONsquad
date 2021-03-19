@@ -95,5 +95,10 @@
         "image" : "pratyush.png",
         "name" : "Pratyush Raj",
         "caption" : "He has the cutest dogs ever. If you haven't seen them, go ask him for a photo. You won't disagree here!"
+    },
+    "musty" : {
+        "image" : "musty.png",
+        "name" : "Musty",
+        "caption" : "He comes from the UK and well that's just awesome... he's a fan of bread too so that's why he's a great member of MELONsquad"
     }
 }
