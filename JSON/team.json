@@ -109,6 +109,11 @@
     "aashi" : {
         "image" : "aashi.png",
         "name" : "Aashi",
-        "caption" : "Really wanted to submit this info as a pull request, unfortunately exams got in the way... oh well! she's here now."
+        "caption" : "Really wanted to submit this info as a pull request, unfortunately exams got in the way... oh well! She's here now."
+    },
+    "willr" : {
+        "image" : "willr.png",
+        "name" : "Will Russell",
+        "caption" : "Proud owner of a BLAHAJ. He loves melons just as much as he loves BLAHAJ and despite not knowing what a Codebug is we let him in!"
     }
 }
