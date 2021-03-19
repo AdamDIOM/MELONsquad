@@ -105,5 +105,10 @@
         "image" : "fawziyah.png",
         "name" : "Fawziyah",
         "caption" : "Fawziyah is awesome!! She is knowledgeable at basically everything... Make sure to ask her about the difference between 'quid' and 'pound'"
+    },
+    "aashi" : {
+        "image" : "aashi.png",
+        "name" : "Aashi",
+        "caption" : "Really wanted to submit this info as a pull request, unfortunately exams got in the way... oh well! she's here now."
     }
 }
