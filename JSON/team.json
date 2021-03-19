@@ -5,7 +5,10 @@
         "caption"   : "MELONsquad Leader. Bringer of melons to MLH. Also loves a game of Chrome Dino!"
     },
     "blahaj" : {
-        "image"     : "blahaj.png",
+        "image"     : [
+            "blahaj.png",
+            "blahaj-2.png"
+        ],
         "name"      : "BLAHAJ",
         "caption"   : "King of <a href=\"https://blahajgang.lol\">BLAHAJgang</a>, honorary fellow of MELONsquad. We love BLAHAJ!"
     },
@@ -112,7 +115,10 @@
         "caption" : "Really wanted to submit this info as a pull request, unfortunately exams got in the way... oh well! She's here now."
     },
     "willr" : {
-        "image" : "willr.png",
+        "image" : [
+            "willr.png",
+            "willr-2.png"
+        ],
         "name" : "Will Russell",
         "caption" : "Proud owner of a BLAHAJ. He loves melons just as much as he loves BLAHAJ and despite not knowing what a Codebug is we let him in!"
     }
