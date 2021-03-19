@@ -243,3 +243,7 @@ a:active{
     max-height:56vh;
     max-width:56vh;
 }
+
+#footer iframe{
+    display:none;
+}

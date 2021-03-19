@@ -33,10 +33,18 @@ function MELONsquad(){
             JoinSquad();
             break;
         default:    
+
             section.innerHTML = `
                 <h1 id="sectionHeading">MELONsquad</h1>
                 <h1>🍉🦈</h1>
-                <img src="Assets/BLAHAJ.gif" id="blahaj">`
+                <img src="Assets/BLAHAJ.gif" id="blahaj">
+
+                
+
+
+                `
+
+
             break;
     }
 }
