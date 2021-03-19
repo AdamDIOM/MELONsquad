@@ -58,5 +58,15 @@
                 "link" : "https://snakesandhackers.devpost.com/"
             }
         ]
+    },
+    "malak" : {
+        "name" : "Malak Abdeldayem",
+        "hackathons" : [
+            {
+                "name" : "WilsonHacks 2021",
+                "prize" : "Best Individual Hack",
+                "link" : "https://wilsonhacks.devpost.com"
+            }
+        ]
     }
 }
