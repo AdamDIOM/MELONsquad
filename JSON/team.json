@@ -87,5 +87,10 @@
         "image" : "nathan.png",
         "name" : "Nathan Dimmer",
         "caption" : "It took a while to persuade him to join the squad. Now he's here, he'll regret not joining earlier!"
+    },
+    "pratyush" : {
+        "image" : "pratyush.png",
+        "name" : "Pratyush Raj",
+        "caption" : "He has the cutest dogs ever. If you haven't seen them, go ask him for a photo. You won't disagree here!"
     }
 }
