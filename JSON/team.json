@@ -70,7 +70,10 @@
         "caption"   : "Another beginner... Treat her with care. We gotta protect these new hackers like they've been hacking for years!"
     },
     "will l" : {
-        "image"     : "willl.png",
+        "image"     : [
+            "willl.png",
+            "willl-2.png"
+        ],
         "name"      : "Will Lifferth",
         "caption"   : "Will is pretty awesome. He's the one who brought the leader of <a href=\"https://blahajgang.lol\">BLAHAJgang</a> to us. What a legend!!"
     },
