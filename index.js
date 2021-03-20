@@ -38,11 +38,9 @@ function MELONsquad(){
                 <h1 id="sectionHeading">MELONsquad</h1>
                 <h1>🍉🦈</h1>
                 <img src="Assets/BLAHAJ.gif" id="blahaj">
-
-                
-
-
                 `
+
+                player.setShuffle(true);
 
 
             break;
@@ -199,3 +197,68 @@ async function HackathonHistory(){
 
 
 }
+
+
+// youtube player bits
+
+var tag = document.createElement('script');
+tag.src = "https://www.youtube.com/iframe_api";
+var firstScriptTag = document.getElementsByTagName('script')[0];
+firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+// 3. This function creates an <iframe> (and YouTube player)
+//    after the API code downloads.
+var player;
+function onYouTubeIframeAPIReady() {
+  player = new YT.Player('player', {
+    events: {
+      'onReady': onPlayerReady,
+      'onStateChange': onPlayerStateChange
+    }
+  });
+}
+// 4. The API will call this function when the video player is ready.
+function onPlayerReady(event) {
+    event.target.playVideo();
+    event.target.setVolume(100);
+  }
+  
+  // 5. The API calls this function when the player's state changes.
+  //    The function indicates that when playing a video (state=1),
+  //    the player should play for six seconds and then stop.
+  var done = false;
+  var playing = true;
+  async function onPlayerStateChange(event) {
+      console.log("change");
+      console.log(event)
+      var x = await testLater();
+      console.log(x);
+      
+    if (event.data == YT.PlayerState.PLAYING && !done) {
+      //setTimeout(stopVideo, 6000);
+      done = true;
+    }
+  }
+   async function testLater(){
+      setTimeout(() => {
+        console.log("wait");
+
+      console.log(player.getPlayerState())
+      console.log(player.getCurrentTime());
+      if(player.getCurrentTime() == 0){
+          player.nextVideo();
+          console.log("x");
+      }
+      return player.getPlayerState();
+      }, 1000);
+      //theFunc = setTimeout(console.log("wait2"), 30000);
+      //console.log(player.getPlayerState())
+
+  }
+  function stopVideo() {
+    player.stopVideo();
+  }
+
+  function onError(error){
+      console.log("error");
+      player.nextVideo();
+  }
