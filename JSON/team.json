@@ -83,7 +83,10 @@
         "caption"   : "This ain't her first Local Hack Day... she knows what to expect. She's here for the melons through and through!"
     },
     "malak" : {
-        "image" : "malak.png",
+        "image" : [
+            "malak.png",
+            "malak-2.png"
+        ],
         "name" : "Malak Abdeldayem",
         "caption" : "Seems to know more than all of us combined yet she's never been on the MELON scene before??"
     },
@@ -144,5 +147,15 @@
         "image" : "avinash.png",
         "name" : "Avinash Upadhyaya",
         "caption" : "He's here after all the hype from Adam. Likes melons, thinks BLAHAJs are cute. Wants to join melon security. Also, he thinks he needs a better picture."
+    },
+    "manya" : {
+        "image" : "manya.png",
+        "name" : "Manya Agarwal",
+        "caption" : "One of the members of the Major League Bread shenanigans, a real star. She also loves to make pizza... who doesn't?"
+    },
+    "mohit" : {
+        "image" : "mohit.png",
+        "name" : "Mohit Ahlawat",
+        "caption" : "Pretty sure he's been with us since the  beginning but seems to have only just joined the web squad. Great to have him onboard though!"
     }
 }
