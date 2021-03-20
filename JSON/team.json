@@ -139,5 +139,10 @@
         "image" : "johnny.png",
         "name" : "Johnny Libenzon",
         "caption" : "Definitely Not the First of his Name. Co-King of RU Hacks and the RU Hackers. Lord of the Small Guest Room he Lives In. Soon-To-Be Owner of Blahaj(s)."
+    },
+    "avinash" : {
+        "image" : "avinash.png",
+        "name" : "Avinash Upadhyaya",
+        "caption" : "He's here after all the hype from Adam. Likes melons, thinks BLAHAJs are cute. Wants to join melon security. Also, he thinks he needs a better picture."
     }
 }
