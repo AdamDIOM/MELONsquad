@@ -131,5 +131,10 @@
         "image" : "reese.png",
         "name" : "Reese",
         "caption" : "One of the original MELONsquadders. She's been with us since the beginning, but a bit of a latecomer to being on the site :("
+    },
+    "johnny" : {
+        "image" : "johnny.png",
+        "name" : "Johnny Libenzon",
+        "caption" : "Definitely Not the First of his Name. Co-King of RU Hacks and the RU Hackers. Lord of the Small Guest Room he Lives In. Soon-To-Be Owner of Blahaj(s)."
     }
 }
