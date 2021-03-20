@@ -68,5 +68,25 @@
                 "link" : "https://wilsonhacks.devpost.com"
             }
         ]
+    },
+    "musty" : {
+        "name" : "Musty",
+        "hackathons" : [
+            {
+                "name" : "ThetaHacks 2021",
+                "prize" : "Best Duo Hack",
+                "link" : "https://thetahacks.devpost.com/"
+            },
+            {
+                "name" : "AngelHacks 2.0",
+                "prize" : "Best Education Hack & Anomaly Science Partnership + $20 in Amazon GCs",
+                "link" : "https://angelhacks-2.devpost.com/"
+            },
+            {
+                "name" : "DeltaHacks 7",
+                "prize" : "Best domain from Domain.com",
+                "link" : "https://deltahacks7.devpost.com/"
+            }
+        ]
     }
 }
