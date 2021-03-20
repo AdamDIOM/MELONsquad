@@ -5,7 +5,10 @@
         "caption"   : "MELONsquad Leader. Bringer of melons to MLH. Also loves a game of Chrome Dino!"
     },
     "blahaj" : {
-        "image"     : "blahaj.png",
+        "image"     : [
+            "blahaj.png",
+            "blahaj-2.png"
+        ],
         "name"      : "BLAHAJ",
         "caption"   : "King of <a href=\"https://blahajgang.lol\">BLAHAJgang</a>, honorary fellow of MELONsquad. We love BLAHAJ!"
     },
@@ -100,5 +103,33 @@
         "image" : "musty.png",
         "name" : "Musty",
         "caption" : "He comes from the UK and well that's just awesome... he's a fan of bread too so that's why he's a great member of MELONsquad"
+    },
+    "fawziyah" : {
+        "image" : "fawziyah.png",
+        "name" : "Fawziyah",
+        "caption" : "Fawziyah is awesome!! She is knowledgeable at basically everything... Make sure to ask her about the difference between 'quid' and 'pound'"
+    },
+    "aashi" : {
+        "image" : "aashi.png",
+        "name" : "Aashi",
+        "caption" : "Really wanted to submit this info as a pull request, unfortunately exams got in the way... oh well! She's here now."
+    },
+    "willr" : {
+        "image" : [
+            "willr.png",
+            "willr-2.png"
+        ],
+        "name" : "Will Russell",
+        "caption" : "Proud owner of a BLAHAJ. He loves melons just as much as he loves BLAHAJ and despite not knowing what a Codebug is we let him in!"
+    },
+    "mara" : {
+        "image" : "mara.png",
+        "name" : "Mara",
+        "caption" : "Goes by the nickname milk, but can't actually have milk. 10/10 nickname choice. Mara is awsome so we tried super hard to get her into the squad!"
+    },
+    "reese" : {
+        "image" : "reese.png",
+        "name" : "Reese",
+        "caption" : "One of the original MELONsquadders. She's been with us since the beginning, but a bit of a latecomer to being on the site :("
     }
 }
