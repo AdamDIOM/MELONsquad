@@ -88,5 +88,26 @@
                 "link" : "https://deltahacks7.devpost.com/"
             }
         ]
+    },
+    "avinash" : {
+        "name" : "Avinash Upadhyaya",
+        "hackathons" : [
+            {
+                "name" : "cuHacking 2021",
+                "prize" : "Best Domain from domain.com and Best Green Hack",
+                "link" : "https://2021.cuhacking.com/dashboard/submissions/"
+            },
+            {
+                "name" : "TAMUhack 2021",
+                "prize" : "Hewlett Packard Enterprise Challenge ",
+                "link" : "https://devpost.com/software/cassavea"
+            },
+            {
+                "name" : "HackVerse 2.0",
+                "prize" : "Best domain from GoDaddy",
+                "link" : "https://devfolio.co/hackverse2021/dashboard"
+            }
+        ]
     }
+    
 }
