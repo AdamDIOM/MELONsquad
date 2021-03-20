@@ -126,5 +126,10 @@
         "image" : "mara.png",
         "name" : "Mara",
         "caption" : "Goes by the nickname milk, but can't actually have milk. 10/10 nickname choice. Mara is awsome so we tried super hard to get her into the squad!"
+    },
+    "reese" : {
+        "image" : "reese.png",
+        "name" : "Reese",
+        "caption" : "One of the original MELONsquadders. She's been with us since the beginning, but a bit of a latecomer to being on the site :("
     }
 }
