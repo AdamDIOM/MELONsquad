@@ -8,7 +8,7 @@ function MELONsquad(){
         }
     }
 
-    player.setShuffle(true);
+    //player.setShuffle(true);
     console.log(c);
     ending = window.location.href.substring(c);
     console.log(ending);
@@ -197,15 +197,19 @@ async function HackathonHistory(){
 
 }
 
-
+/*
 // youtube player bits
-
-var tag = document.createElement('script');
+if(!!window.chrome && (!!window.chrome.webstore || !!window.chrome.runtime)){
+    var tag = document.createElement('script');
 tag.src = "https://www.youtube.com/iframe_api";
 var firstScriptTag = document.getElementsByTagName('script')[0];
 firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+
+
 // 3. This function creates an <iframe> (and YouTube player)
 //    after the API code downloads.
+
 var player;
 function onYouTubeIframeAPIReady() {
   player = new YT.Player('player', {
@@ -261,3 +265,5 @@ function onPlayerReady(event) {
       console.log("error");
       player.nextVideo();
   }
+}
+*/
