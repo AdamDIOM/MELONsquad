@@ -95,17 +95,17 @@
             {
                 "name" : "cuHacking 2021",
                 "prize" : "Best Domain from domain.com and Best Green Hack",
-                "link" : "https://2021.cuhacking.com/dashboard/submissions/"
+                "link" : "https://2021.cuhacking.com"
             },
             {
                 "name" : "TAMUhack 2021",
                 "prize" : "Hewlett Packard Enterprise Challenge ",
-                "link" : "https://devpost.com/software/cassavea"
+                "link" : "https://tamuhack2021.devpost.com"
             },
             {
                 "name" : "HackVerse 2.0",
                 "prize" : "Best domain from GoDaddy",
-                "link" : "https://devfolio.co/hackverse2021/dashboard"
+                "link" : "https://hackverse.nitk.ac.in"
             }
         ]
     }
