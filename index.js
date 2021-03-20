@@ -7,6 +7,8 @@ function MELONsquad(){
             break;
         }
     }
+
+    player.setShuffle(true);
     console.log(c);
     ending = window.location.href.substring(c);
     console.log(ending);
@@ -33,20 +35,17 @@ function MELONsquad(){
             JoinSquad();
             break;
         default:    
-
-            section.innerHTML = `
-                <h1 id="sectionHeading">MELONsquad</h1>
-                <h1>🍉🦈</h1>
-                <img src="Assets/BLAHAJ.gif" id="blahaj">
-                `
-
-                player.setShuffle(true);
-
-
+            MELON();
             break;
     }
 }
-
+function MELON(){
+    section.innerHTML = `
+    <h1 id="sectionHeading">MELONsquad</h1>
+    <h1>🍉🦈</h1>
+    <img src="Assets/BLAHAJ.gif" id="blahaj">
+    `
+}
 function About(){
     section.innerHTML = "<h1 id=\"sectionHeading\">About</h1>"
 }
