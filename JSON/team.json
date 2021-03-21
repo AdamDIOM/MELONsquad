@@ -157,5 +157,10 @@
         "image" : "mohit.png",
         "name" : "Mohit Ahlawat",
         "caption" : "Pretty sure he's been with us since the  beginning but seems to have only just joined the web squad. Great to have him onboard though!"
+    },
+    "hana" : {
+        "image" : "hana.png",
+        "name" : "Hana",
+        "caption" : "Originally thought MELONsquad was separate to BLAHAJgang and wanted to stay loyal... It hasn't been that way for a looooong time!"
     }
 }
