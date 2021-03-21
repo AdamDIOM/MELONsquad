@@ -10,7 +10,7 @@
             "blahaj-2.png"
         ],
         "name"      : "BLAHAJ",
-        "caption"   : "King of <a href=\"https://blahajgang.lol\">BLAHAJgang</a>, honorary fellow of MELONsquad. We love BLAHAJ!"
+        "caption"   : "King of <a target=\"_blank\" href=\"https://blahajgang.lol\">BLAHAJgang</a>, honorary fellow of MELONsquad. We love BLAHAJ!"
     },
     "jacklyn" : {
         "image"     : [
@@ -18,18 +18,18 @@
             "jack-2.png"
         ],
         "name"      : "Jacklyn Biggin",
-        "caption"   : "Leader of <a href=\"https://blahajgang.lol\">BLAHAJgang</a>, unable to consume melon (allergies - RIP). Honorary fellow of MELONsquad."
+        "caption"   : "Leader of <a target=\"_blank\" href=\"https://blahajgang.lol\">BLAHAJgang</a>, unable to consume melon (allergies - RIP). Honorary fellow of MELONsquad."
 
     },
     "stephen" : {
         "image"     : "stephen.png",
         "name"      : "Stephen",
-        "caption"   : "Has the <a href=\"https://blahajgang.lol\">BLAHAJgang</a> profile pic but didn't join. Honorary fellow of MELONsquad because we like him."
+        "caption"   : "Has the <a target=\"_blank\" href=\"https://blahajgang.lol\">BLAHAJgang</a> profile pic but didn't join. Honorary fellow of MELONsquad because we like him."
     },
     "ryan" : {
         "image"     : "ryan.png",
         "name"      : "Ryan Swift",
-        "caption"   : "#1 fan of MELONsquad, wishes it was a separate entity to <a href=\"https://blahajgang.lol\">BLAHAJgang</a> (never gonna happen!!)"
+        "caption"   : "#1 fan of MELONsquad, wishes it was a separate entity to <a target=\"_blank\" href=\"https://blahajgang.lol\">BLAHAJgang</a> (never gonna happen!!)"
     },
     "ayush" : {
         "image"     : [
@@ -47,7 +47,7 @@
     "surya" : {
         "image"     : "surya.png",
         "name"      : "Surya",
-        "caption"   : "I don't think he knows exactly what's going on and we kind of forced him into <a href=\"https://blahajgang.lol\">BLAHAJgang</a> but he's here now!"
+        "caption"   : "I don't think he knows exactly what's going on and we kind of forced him into <a target=\"_blank\" href=\"https://blahajgang.lol\">BLAHAJgang</a> but he's here now!"
     },
     "jenna" : {
         "image"     : "jenna.png",
@@ -75,7 +75,7 @@
             "willl-2.png"
         ],
         "name"      : "Will Lifferth",
-        "caption"   : "Will is pretty awesome. He's the one who brought the leader of <a href=\"https://blahajgang.lol\">BLAHAJgang</a> to us. What a legend!! Livestream chef to be..."
+        "caption"   : "Will is pretty awesome. He's the one who brought the leader of <a target=\"_blank\" href=\"https://blahajgang.lol\">BLAHAJgang</a> to us. What a legend!! Livestream chef to be..."
     },
     "ahelee" : {
         "image"     : "ahelee.png",
@@ -161,6 +161,6 @@
     "hana" : {
         "image" : "hana.png",
         "name" : "Hana",
-        "caption" : "Originally thought MELONsquad was separate to BLAHAJgang and wanted to stay loyal... It hasn't been that way for a looooong time!"
+        "caption" : "Originally thought MELONsquad was separate to <a target=\"_blank\" href=\"https://blahajgang.lol\">BLAHAJgang</a> and wanted to stay loyal... It hasn't been that way for a looooong time!"
     }
 }
