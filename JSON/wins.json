@@ -109,5 +109,31 @@
             }
         ]
     }
-    
+    "indrashis" : {
+        "name" : "Indrashis Mitra",
+        "hackathons" : [
+            {
+                "name" : "Hack For Africa : A Microsoft Challenge",
+                "prize" : "Best Out of the Box Hack",
+                "link" : "https://devpost.com/software/locust-build"
+            },
+            {
+                "name" : "Philly Codefest 2020",
+                "prize" : "Philly Codefest 2020 Collaborative Award
+                         Philly Codefest 2020 Best Hack for Social Good
+                         Bring ESG funds to the spotlight (Vanguard) ",
+                "link" : "https://devpost.com/software/grow-n-track-u7962v"
+            },
+ {
+                "name" : "HackPSU Fall 2020",
+                "prize" : "HackPSU Environmental Change",
+                "link" : "https://devpost.com/software/trashmate-z27ob1"
+            },
+            {
+                "name" : "QODE Internet Fest ",
+                "prize" : "Special Mention",
+                "link" : "https://devpost.com/software/ht-lang"
+            }
+        ]
+    }   
 }
