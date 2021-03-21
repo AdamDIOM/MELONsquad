@@ -32,3 +32,10 @@ This page features some amazing art curated and created by our squad members
 4. Edit /JSON/art.json to add your image name (make sure to include the file extension), your name and a caption for the image.
 5. Make sure to have a unique identifier for the first part of each artwork e.g. your name-1
 6. Submit a pull request and wait for approval!
+
+## Add a page to this site
+1. Fork this project
+2. Edit /JSON/navbar.json to add the site's # link, function and text
+3. Edit index.js to add a function to choose what to show on screen when that page is visited
+4. Use section.innerHTML = "something" to output "something" to the page.
+5. Any JavaScript code can be run to create the output, including other functions, just don't modify the pre-existing functions
