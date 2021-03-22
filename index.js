@@ -1,6 +1,10 @@
 async function MELONsquad(){
     navBar();
     console.log(window.location.href);
+    if(window.location.href.includes("%23")){
+        hash = window.location.href.indexOf("%");
+        window.location.href = window.location.href.substring(0,hash) + '#' + window.location.href.substring(hash+3);
+    }
     //setting pos to a number so high it won't be reached
     pos = 500
     pos = window.location.href.indexOf("#")
