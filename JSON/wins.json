@@ -46,6 +46,11 @@
                 "name" : "WiCHacks 2021",
                 "prize" : "WiC: Most Innovative Hack",
                 "link" : "https://wichacks-2021.devpost.com/"
+            },
+            {
+                "name" : "T9Hacks 2021",
+                "prize" : "echoAR Award",
+                "link" : "https://t9hacks-2021.devpost.com/"
             }
         ]
     },
