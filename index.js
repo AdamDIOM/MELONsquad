@@ -100,7 +100,7 @@ function MELON(){
     section.innerHTML = `
     <h1 id="sectionHeading">MELONsquad</h1>
     <h1>🍉🦈</h1>
-    <img src="Assets/BLAHAJ.gif" id="blahaj">
+    <img src="Assets/BLAHAJ.gif" id="blahajpic">
     `
 }
 
@@ -188,7 +188,7 @@ async function AddImageBoxes(imageDirectory, jsonFile, link = false){
     return team;
 }
 
-function AddImageBox(imageSrc, title, caption, link){
+function AddImageBox(imageSrc, title, caption, user, link){
     box = "";
     if(link){
         box += `<a id="noformat" href="Assets/${imageSrc}" target="_blank">`
