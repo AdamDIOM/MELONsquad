@@ -147,7 +147,7 @@ iframe{
 
 /*css for imagebox as seen in index.js*/
 
-#wideBox{
+.wideBox{
     width:75vw;
     max-height:20vh;
     max-width:98%;
@@ -157,7 +157,7 @@ iframe{
     margin-top: 3.5vh;
 }
 
-#wideBox:hover{
+.wideBox:hover{
     background-color:#d22b3f;
 }
 
@@ -197,7 +197,7 @@ iframe{
     color:#f4c4c4;
     margin:0;
 }
-#historyOuter #wideBox{
+#historyOuter .wideBox{
     max-height:10vh;
     height:12.5vw;
     margin-top:1.5vh;

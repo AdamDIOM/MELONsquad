@@ -1,38 +1,69 @@
-function MELONsquad(){
+async function MELONsquad(){
     navBar();
     console.log(window.location.href);
-    for(c in window.location.href){
-        if(window.location.href[c] == '#'){
+    //setting pos to a number so high it won't be reached
+    pos = 500
+    pos = window.location.href.indexOf("#")
+    pos2 = window.location.href.lastIndexOf("#");
+    /*for(c in window.location.href){
+        if(window.location.href[c] == '#' && c < pos){
             console.log(c);
             pos = c;
             break;
         }
-    }
 
-    console.log(c);
-    ending = window.location.href.substring(c);
-    console.log(ending);
+    }*/
+
+    console.log(pos);
+    if(pos == pos2) {
+        ending = window.location.href.substring(pos);
+        ChoosePage(ending);
+    }
+    else{
+        ending = window.location.href.substring(pos,pos2);
+        await ChoosePage(ending);
+
+        anchor = window.location.href.substring(pos2 + 1).toLowerCase();
+        console.log("second: " + anchor);
+        scrollSmoothTo(anchor);
+
+    }
+    console.log("ending: " + ending);
+    
+    
+
+}
+
+function scrollSmoothTo(elementId) {
+    var element = document.getElementById(elementId);
+    element.scrollIntoView({
+      block: 'start',
+      behavior: 'smooth'
+    });
+  }
+
+async function ChoosePage(ending){
     switch(ending.toLowerCase()){
         case "#about":
             About()
             break;
         case "#team":
-            TeamMembers();
+            await TeamMembers();
             break;
         case "#squad":
-            TeamMembers();
+            await TeamMembers();
             break;
         case "#gang":
-            TeamMembers();
+            await TeamMembers();
             break;
         case "#history":
-            History();
+            await History();
             break;
         case "#art":
-            Art();
+            await Art();
             break;
         case "#recipes":
-            Recipes();
+            await Recipes();
             break;
         case "#join":
             JoinSquad();
@@ -147,7 +178,7 @@ async function AddImageBoxes(imageDirectory, jsonFile, link = false){
             console.log(imgNum);
             imageurl = json[user].image[imgNum];
         }
-        team += AddImageBox(imageDirectory + "/" + imageurl, json[user].name, json[user].caption, link);
+        team += AddImageBox(imageDirectory + "/" + imageurl, json[user].name, json[user].caption, user, link);
     }
 
     return team;
@@ -159,7 +190,7 @@ function AddImageBox(imageSrc, title, caption, link){
         box += `<a id="noformat" href="Assets/${imageSrc}" target="_blank">`
     }
     box += `
-        <div id="wideBox">
+        <div class="wideBox" id="${user}">
             <div id="boxImg">
                 <img src="Assets/${imageSrc}">
             </div>
