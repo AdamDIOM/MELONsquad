@@ -108,12 +108,12 @@
                 "link" : "https://hackverse.nitk.ac.in"
             }
         ]
-    }
+    },
     "indrashis" : {
         "name" : "Indrashis Mitra",
         "hackathons" : [
             {
-                "name" : "Hack For Africa-  A Microsoft Challenge",
+                "name" : "Hack For Africa- A Microsoft Challenge",
                 "prize" : "Best Out of the Box Hack",
                 "link" : "https://hackforafrica.devpost.com/"
             },
@@ -128,7 +128,7 @@
                 "link" : "https://hackpsu-fall-2020.devpost.com/"
             },
             {
-                "name" : "QODE Internet Fest ",
+                "name" : "QODE Internet Fest",
                 "prize" : "Special Mention",
                 "link" : "https://qode.devpost.com/"
             }
