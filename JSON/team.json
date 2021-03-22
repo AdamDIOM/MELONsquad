@@ -162,5 +162,10 @@
         "image" : "hana.png",
         "name" : "Hana",
         "caption" : "Originally thought MELONsquad was separate to <a target=\"_blank\" href=\"https://blahajgang.lol\">BLAHAJgang</a> and wanted to stay loyal... It hasn't been that way for a looooong time!"
+    },
+    "indrashis" : {
+        "image" : "indrashis.png",
+        "name" : "Indrashis Mitra",
+        "caption" : "Ex-member of guild EquiCode. Regret nothing. Joined the BEST SQUAD EVER!!(though late :P )"
     }
 }
