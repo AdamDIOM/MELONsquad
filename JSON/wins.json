@@ -108,6 +108,30 @@
                 "link" : "https://hackverse.nitk.ac.in"
             }
         ]
-    }
-    
+    },
+    "indrashis" : {
+        "name" : "Indrashis Mitra",
+        "hackathons" : [
+            {
+                "name" : "Hack For Africa- A Microsoft Challenge",
+                "prize" : "Best Out of the Box Hack",
+                "link" : "https://hackforafrica.devpost.com/"
+            },
+            {
+                "name" : "Philly Codefest 2020",
+                "prize" : "Philly Codefest 2020 Collaborative Award, Philly Codefest 2020 Best Hack for Social Good, Bring ESG funds to the spotlight (Vanguard) ",
+                "link" : "https://philly-codefest-2020.devpost.com/"
+            },
+ {
+                "name" : "HackPSU Fall 2020",
+                "prize" : "HackPSU Environmental Change",
+                "link" : "https://hackpsu-fall-2020.devpost.com/"
+            },
+            {
+                "name" : "QODE Internet Fest",
+                "prize" : "Special Mention",
+                "link" : "https://qode.devpost.com/"
+            }
+        ]
+    }   
 }
