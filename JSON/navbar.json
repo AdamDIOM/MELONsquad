@@ -1,0 +1,32 @@
+{
+    "melon" : {
+        "link" : "melon",
+        "onclick" : "MELON()",
+        "text" : "MELON<wbr>squad"
+    },
+    "about" : {
+        "link" : "about",
+        "onclick" : "About()",
+        "text" : "About"
+    },
+    "squad" : {
+        "link" : "squad",
+        "onclick" : "TeamMembers()",
+        "text" : "The Squad"
+    },
+    "history" : {
+        "link" : "history",
+        "onclick" : "History()",
+        "text" : "History"
+    },
+    "art" : {
+        "link" : "art",
+        "onclick" : "Art()",
+        "text" : "Art"
+    },
+    "join" : {
+        "link" : "join",
+        "onclick" : "JoinSquad()",
+        "text" : "Join us!"
+    }
+}

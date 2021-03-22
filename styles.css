@@ -144,12 +144,6 @@ iframe{
     display:block;
     float:left;
 }
-#instructions{
-    width:25vw;
-    height:70vh;
-    display:block;
-    float:right;
-}
 
 /*css for imagebox as seen in index.js*/
 
@@ -242,4 +236,8 @@ a:active{
     width:70vw;
     max-height:56vh;
     max-width:56vh;
+}
+
+#footer iframe{
+    display:none;
 }

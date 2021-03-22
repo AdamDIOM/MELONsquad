@@ -5,25 +5,31 @@
         "caption"   : "MELONsquad Leader. Bringer of melons to MLH. Also loves a game of Chrome Dino!"
     },
     "blahaj" : {
-        "image"     : "blahaj.png",
+        "image"     : [
+            "blahaj.png",
+            "blahaj-2.png"
+        ],
         "name"      : "BLAHAJ",
-        "caption"   : "King of <a href=\"https://blahajgang.lol\">BLAHAJgang</a>, honorary fellow of MELONsquad. We love BLAHAJ!"
+        "caption"   : "King of <a target=\"_blank\" href=\"https://blahajgang.lol\">BLAHAJgang</a>, honorary fellow of MELONsquad. We love BLAHAJ!"
     },
     "jacklyn" : {
-        "image"     : "jack.png",
+        "image"     : [
+            "jack.png",
+            "jack-2.png"
+        ],
         "name"      : "Jacklyn Biggin",
-        "caption"   : "Leader of <a href=\"https://blahajgang.lol\">BLAHAJgang</a>, unable to consume melon (allergies - RIP). Honorary fellow of MELONsquad."
+        "caption"   : "Leader of <a target=\"_blank\" href=\"https://blahajgang.lol\">BLAHAJgang</a>, unable to consume melon (allergies - RIP). Honorary fellow of MELONsquad."
 
     },
     "stephen" : {
         "image"     : "stephen.png",
         "name"      : "Stephen",
-        "caption"   : "Has the <a href=\"https://blahajgang.lol\">BLAHAJgang</a> profile pic but didn't join. Honorary fellow of MELONsquad because we like him."
+        "caption"   : "Has the <a target=\"_blank\" href=\"https://blahajgang.lol\">BLAHAJgang</a> profile pic but didn't join. Honorary fellow of MELONsquad because we like him."
     },
     "ryan" : {
         "image"     : "ryan.png",
         "name"      : "Ryan Swift",
-        "caption"   : "#1 fan of MELONsquad, wishes it was a separate entity to <a href=\"https://blahajgang.lol\">BLAHAJgang</a> (never gonna happen!!)"
+        "caption"   : "#1 fan of MELONsquad, wishes it was a separate entity to <a target=\"_blank\" href=\"https://blahajgang.lol\">BLAHAJgang</a> (never gonna happen!!)"
     },
     "ayush" : {
         "image"     : [
@@ -41,7 +47,7 @@
     "surya" : {
         "image"     : "surya.png",
         "name"      : "Surya",
-        "caption"   : "I don't think he knows exactly what's going on and we kind of forced him into <a href=\"https://blahajgang.lol\">BLAHAJgang</a> but he's here now!"
+        "caption"   : "I don't think he knows exactly what's going on and we kind of forced him into <a target=\"_blank\" href=\"https://blahajgang.lol\">BLAHAJgang</a> but he's here now!"
     },
     "jenna" : {
         "image"     : "jenna.png",
@@ -64,9 +70,12 @@
         "caption"   : "Another beginner... Treat her with care. We gotta protect these new hackers like they've been hacking for years!"
     },
     "will l" : {
-        "image"     : "willl.png",
+        "image"     : [
+            "willl.png",
+            "willl-2.png"
+        ],
         "name"      : "Will Lifferth",
-        "caption"   : "Will is pretty awesome. He's the one who brought the leader of <a href=\"https://blahajgang.lol\">BLAHAJgang</a> to us. What a legend!!"
+        "caption"   : "Will is pretty awesome. He's the one who brought the leader of <a target=\"_blank\" href=\"https://blahajgang.lol\">BLAHAJgang</a> to us. What a legend!! Livestream chef to be..."
     },
     "ahelee" : {
         "image"     : "ahelee.png",
@@ -74,8 +83,84 @@
         "caption"   : "This ain't her first Local Hack Day... she knows what to expect. She's here for the melons through and through!"
     },
     "malak" : {
-        "image" : "malak.png",
+        "image" : [
+            "malak.png",
+            "malak-2.png"
+        ],
         "name" : "Malak Abdeldayem",
         "caption" : "Seems to know more than all of us combined yet she's never been on the MELON scene before??"
+    },
+    "jamie" : {
+        "image" : "jamie.png",
+        "name" : "Jamie Liao",
+        "caption" : "'WE GOT ONE OF THE BEST PEOPLE IN THE WORLD IN THE BLAHAJGANG FRIENDS' - Jack... need we say more?"
+    },
+    "nathan" : {
+        "image" : "nathan.png",
+        "name" : "Nathan Dimmer",
+        "caption" : "It took a while to persuade him to join the squad. Now he's here, he'll regret not joining earlier!"
+    },
+    "pratyush" : {
+        "image" : "pratyush.png",
+        "name" : "Pratyush Raj",
+        "caption" : "He has the cutest dogs ever. If you haven't seen them, go ask him for a photo. You won't disagree here!"
+    },
+    "musty" : {
+        "image" : "musty.png",
+        "name" : "Musty",
+        "caption" : "He comes from the UK and well that's just awesome... he's a fan of bread too so that's why he's a great member of MELONsquad"
+    },
+    "fawziyah" : {
+        "image" : "fawziyah.png",
+        "name" : "Fawziyah",
+        "caption" : "Fawziyah is awesome!! She is knowledgeable at basically everything... Make sure to ask her about the difference between 'quid' and 'pound'"
+    },
+    "aashi" : {
+        "image" : "aashi.png",
+        "name" : "Aashi",
+        "caption" : "Really wanted to submit this info as a pull request, unfortunately exams got in the way... oh well! She's here now."
+    },
+    "willr" : {
+        "image" : [
+            "willr.png",
+            "willr-2.png"
+        ],
+        "name" : "Will Russell",
+        "caption" : "Proud owner of a BLAHAJ. He loves melons just as much as he loves BLAHAJ and despite not knowing what a Codebug is we let him in!"
+    },
+    "mara" : {
+        "image" : "mara.png",
+        "name" : "Mara",
+        "caption" : "Goes by the nickname milk, but can't actually have milk. 10/10 nickname choice. Mara is awsome so we tried super hard to get her into the squad!"
+    },
+    "reese" : {
+        "image" : "reese.png",
+        "name" : "Reese",
+        "caption" : "One of the original MELONsquadders. She's been with us since the beginning, but a bit of a latecomer to being on the site :("
+    },
+    "johnny" : {
+        "image" : "johnny.png",
+        "name" : "Johnny Libenzon",
+        "caption" : "Definitely Not the First of his Name. Co-King of RU Hacks and the RU Hackers. Lord of the Small Guest Room he Lives In. Soon-To-Be Owner of Blahaj(s)."
+    },
+    "avinash" : {
+        "image" : "avinash.png",
+        "name" : "Avinash Upadhyaya",
+        "caption" : "He's here after all the hype from Adam. Likes melons, thinks BLAHAJs are cute. Wants to join melon security. Also, he thinks he needs a better picture."
+    },
+    "manya" : {
+        "image" : "manya.png",
+        "name" : "Manya Agarwal",
+        "caption" : "One of the members of the Major League Bread shenanigans, a real star. She also loves to make pizza... who doesn't?"
+    },
+    "mohit" : {
+        "image" : "mohit.png",
+        "name" : "Mohit Ahlawat",
+        "caption" : "Pretty sure he's been with us since the  beginning but seems to have only just joined the web squad. Great to have him onboard though!"
+    },
+    "hana" : {
+        "image" : "hana.png",
+        "name" : "Hana",
+        "caption" : "Originally thought MELONsquad was separate to <a target=\"_blank\" href=\"https://blahajgang.lol\">BLAHAJgang</a> and wanted to stay loyal... It hasn't been that way for a looooong time!"
     }
 }
