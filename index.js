@@ -1,4 +1,5 @@
 function MELONsquad(){
+    navBar();
     console.log(window.location.href);
     for(c in window.location.href){
         if(window.location.href[c] == '#'){
@@ -7,6 +8,7 @@ function MELONsquad(){
             break;
         }
     }
+
     console.log(c);
     ending = window.location.href.substring(c);
     console.log(ending);
@@ -32,23 +34,44 @@ function MELONsquad(){
         case "#join":
             JoinSquad();
             break;
+            case "#join-us":
+                JoinSquad();
+                break;
         default:    
-            section.innerHTML = `
-                <h1 id="sectionHeading">MELONsquad</h1>
-                <h1>🍉🦈</h1>
-                <img src="Assets/BLAHAJ.gif" id="blahaj">`
+            MELON();
             break;
     }
 }
 
+async function navBar(){
+    navList = document.getElementById('list');
+    console.log("list");
+    const response = await fetch("JSON/navbar.json")
+    .then(response => response.json());
+    json = response;
+    console.log(json);
+
+
+    for(link in json){
+        console.log(link)
+        navList.innerHTML += `<a href="#${json[link].link}"><li onclick="${json[link].onclick}">${json[link].text}</li></a>`
+    }
+}
+
+function MELON(){
+    section.innerHTML = `
+    <h1 id="sectionHeading">MELONsquad</h1>
+    <h1>🍉🦈</h1>
+    <img src="Assets/BLAHAJ.gif" id="blahaj">
+    `
+}
 function About(){
-    section.innerHTML = "<h1 id=\"sectionHeading\">About</h1>"
+    section.innerHTML = "<h1 id=\"sectionHeading\">About - Coming soon...</h1>"
 }
 
 async function TeamMembers(){
     section.innerHTML = "<h1 id=\"sectionHeading\">The Squad</h1>"
     team = await AddImageBoxes("Team", "team");
-    //console.log(team);
     section.innerHTML += team;
 }
 
@@ -60,34 +83,32 @@ async function History(){
         <h2>Find below some of the historical hackathon prizes our MELONsquad members have won... this is why we will be the best squad at LHD: Share!</h2>
         `
     hHistory = await HackathonHistory();
-    console.log(hHistory);
     section.innerHTML += hHistory;
 }
 
 async function Art(){
     section.innerHTML = "<h1 id=\"sectionHeading\">Art</h1>"
     art = await AddImageBoxes("Art", "art", true);
-    //console.log(art);
     section.innerHTML += art;
 }
 
 function JoinSquad(){
     section.innerHTML = `
-    
     <h1 id="sectionHeading">Join us!</h1>
-    <div id="instructions">
+    <div>
         <h2>Instructions</h2>
         <ol>
-            <li>Click Login</li>
+            <li>Visit <a href="https://discord.mlh.io" target="_blank">discord.mlh.io</a>
+            <li>Click Sign in with Discord</li>
             <li>Log in</li>
-            <li>Click Profile</li>
+            <li>Click Edit Profile</li>
             <li>Scroll to Guild Membership</li>
-            <li>Select BLAHAJGang</li>
+            <li>Select guild BLAHAJGang</li>
             <li>Visit the BLAHAJgang Discord Channel</li>
             <li>Add the melon and shark emoji to your nickname (🍉🦈)</li>
+            <li>Optional - ask to be added to the <a href="#squad" target="_blank">website</a></li>
         </ol>
     </div>
-    <iframe src="https://discord.mlh.io/profile" SameSite=Strict>
     `;
 }
 
@@ -95,27 +116,8 @@ async function AddImageBoxes(imageDirectory, jsonFile, link = false){
     const response = await fetch("JSON/" + jsonFile + '.json')
     .then(response => response.json());
     json = response
-    //console.log(json);
     team = "";
     for(user in json){
-        //console.log(user);
-        //console.log(team);
-        /*try {
-            const image = await fetch("Assets/Team/" + json[user].image);
-            imageurl = json[user].image;
-        } catch (error) {
-            imageurl = "nopic";
-        }
-        if(true){
-            console.log("file exists");
-            imageurl = json[user].image;
-        }
-        else{
-            imageurl = "nopic";
-        }
-        console.log(imageurl);
-        console.log(Array.isArray(imageurl));*/
-        
         if(!Array.isArray(json[user].image)){
             imageurl = json[user].image;
         } else {
@@ -124,10 +126,8 @@ async function AddImageBoxes(imageDirectory, jsonFile, link = false){
             console.log(imgNum);
             imageurl = json[user].image[imgNum];
         }
-
         team += AddImageBox(imageDirectory + "/" + imageurl, json[user].name, json[user].caption, link);
     }
-    //console.log(team);
 
     return team;
 }
@@ -135,9 +135,7 @@ async function AddImageBoxes(imageDirectory, jsonFile, link = false){
 function AddImageBox(imageSrc, title, caption, link){
     box = "";
     if(link){
-        box += `
-            <a id="noformat" href="Assets/${imageSrc}" target="_blank">
-        `
+        box += `<a id="noformat" href="Assets/${imageSrc}" target="_blank">`
     }
     box += `
         <div id="wideBox">
@@ -149,9 +147,7 @@ function AddImageBox(imageSrc, title, caption, link){
         </div>
     `
     if(link){
-        box += `
-            </a>
-        `
+        box += `</a>`
     }
 
     return box;
@@ -177,17 +173,9 @@ async function HackathonHistory(){
                 historystring += `</a>`;
             }
             
-            
-        historystring += `
-            </div>
-        `;
-
+        historystring += `</div>`;
         console.log(historystring);
     }
     console.log(historystring);
     return historystring;
-    //data we have: name, hackathons [name, prize]
-
-
-
 }

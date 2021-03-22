@@ -68,5 +68,46 @@
                 "link" : "https://wilsonhacks.devpost.com"
             }
         ]
+    },
+    "musty" : {
+        "name" : "Musty",
+        "hackathons" : [
+            {
+                "name" : "ThetaHacks 2021",
+                "prize" : "Best Duo Hack",
+                "link" : "https://thetahacks.devpost.com/"
+            },
+            {
+                "name" : "AngelHacks 2.0",
+                "prize" : "Best Education Hack & Anomaly Science Partnership",
+                "link" : "https://angelhacks-2.devpost.com/"
+            },
+            {
+                "name" : "DeltaHacks 7",
+                "prize" : "Best domain from Domain.com",
+                "link" : "https://deltahacks7.devpost.com/"
+            }
+        ]
+    },
+    "avinash" : {
+        "name" : "Avinash Upadhyaya",
+        "hackathons" : [
+            {
+                "name" : "cuHacking 2021",
+                "prize" : "Best Domain from domain.com and Best Green Hack",
+                "link" : "https://2021.cuhacking.com"
+            },
+            {
+                "name" : "TAMUhack 2021",
+                "prize" : "Hewlett Packard Enterprise Challenge ",
+                "link" : "https://tamuhack2021.devpost.com"
+            },
+            {
+                "name" : "HackVerse 2.0",
+                "prize" : "Best domain from GoDaddy",
+                "link" : "https://hackverse.nitk.ac.in"
+            }
+        ]
     }
+    
 }
