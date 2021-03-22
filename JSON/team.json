@@ -172,5 +172,15 @@
         "image" : "rj.png",
         "name" : "Ren Jie (RJ)",
         "caption" : "Thought that the melons looked tasty, joined the MELONsquad to get his fair share of melons.."
+    },
+    "saket" : {
+        "image" : "saket.png",
+        "name" : "Saket Sarin",
+        "caption" : "Winning is for kids but he's here for the memes. We're feelin' good like we should!"
+    },
+    "alestor" : {
+        "image" : "alestor.png",
+        "name" : "Alestor Aldous",
+        "caption" : "He's been on the StreamYard a jolly few times and knows what to expect. Don't mess with Alestor or he'll hit you with some magic Ubuntu wizardry..."
     }
 }
