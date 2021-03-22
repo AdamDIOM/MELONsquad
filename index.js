@@ -31,12 +31,15 @@ function MELONsquad(){
         case "#art":
             Art();
             break;
+        case "#recipes":
+            Recipes();
+            break;
         case "#join":
             JoinSquad();
             break;
-            case "#join-us":
-                JoinSquad();
-                break;
+        case "#join-us":
+            JoinSquad();
+            break;
         default:    
             MELON();
             break;
@@ -91,6 +94,23 @@ async function Art(){
     section.innerHTML = "<h1 id=\"sectionHeading\">Art</h1>"
     art = await AddImageBoxes("Art", "art", true);
     section.innerHTML += art;
+}
+
+async function Recipes(){
+    section.innerHTML = "<h1 id=\"sectionHeading\">Recipes</h1>"
+    const response = await fetch("JSON/recipes.json")
+    .then(response => response.json());
+    json = response
+    console.log(json.mlb.name);
+    recipeString = "<ol>"
+    for(s in json.mlb.steps){
+        console.log(json.mlb.steps[s]);
+        recipeString += "<li>"
+        recipeString += json.mlb.steps[s];
+        recipeString += "</li>"
+    }
+    recipeString += "</ol>"
+    section.innerHTML += recipeString;
 }
 
 function JoinSquad(){

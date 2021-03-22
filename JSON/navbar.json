@@ -24,6 +24,11 @@
         "onclick" : "Art()",
         "text" : "Art"
     },
+    "recipes" : {
+        "link" : "recipes",
+        "onclick" : "Recipes()",
+        "text" : "Recipes"
+    },
     "join" : {
         "link" : "join",
         "onclick" : "JoinSquad()",
