@@ -45,15 +45,15 @@ function MELONsquad(){
 
 async function navBar(){
     navList = document.getElementById('list');
-    console.log("list");
+    //console.log("list");
     const response = await fetch("JSON/navbar.json")
     .then(response => response.json());
     json = response;
-    console.log(json);
+    //console.log(json);
 
 
     for(link in json){
-        console.log(link)
+        //console.log(link)
         navList.innerHTML += `<a href="#${json[link].link}"><li onclick="${json[link].onclick}">${json[link].text}</li></a>`
     }
 }
@@ -65,6 +65,7 @@ function MELON(){
     <img src="Assets/BLAHAJ.gif" id="blahaj">
     `
 }
+
 function About(){
     section.innerHTML = "<h1 id=\"sectionHeading\">About - Coming soon...</h1>"
 }
@@ -121,7 +122,7 @@ async function AddImageBoxes(imageDirectory, jsonFile, link = false){
         if(!Array.isArray(json[user].image)){
             imageurl = json[user].image;
         } else {
-            console.log(json[user].image.length);
+            //console.log(json[user].image.length);
             imgNum = Math.floor(Math.random() * (json[user].image.length));
             console.log(imgNum);
             imageurl = json[user].image[imgNum];
@@ -161,8 +162,8 @@ async function HackathonHistory(){
     historystring = "";
 
     for(hacker in json){
-        console.log(json[hacker]);
-        console.log(json[hacker].hackathons[0].name);
+        //console.log(json[hacker]);
+        //console.log(json[hacker].hackathons[0].name);
         historystring += `
             <div id="historyOuter">
                 <h2>${json[hacker].name}</h2>
@@ -174,8 +175,8 @@ async function HackathonHistory(){
             }
             
         historystring += `</div>`;
-        console.log(historystring);
+        //console.log(historystring);
     }
-    console.log(historystring);
+    //console.log(historystring);
     return historystring;
 }
