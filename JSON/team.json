@@ -182,5 +182,15 @@
         "image" : "alestor.png",
         "name" : "Alestor Aldous",
         "caption" : "He's been on the StreamYard a jolly few times and knows what to expect. Don't mess with Alestor or he'll hit you with some magic Ubuntu wizardry..."
+    },
+    "jedi" : {
+        "image" : "jedi.png",
+        "name" : "NoSchopeJedi",
+        "caption" : "\"The best thing about a boolean is that even if you are wrong, you are only off by a bit\" - Jedi"
+    },
+    "zaza" : {
+        "image" : "zaza.png",
+        "name" : "Zaza",
+        "caption" : "Melons are yummy. But when life gives you melons, you're dyslexic"
     }
 }
