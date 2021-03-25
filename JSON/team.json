@@ -207,5 +207,10 @@
         "image" : "michael.png",
         "name" : "Michael",
         "caption" : "He appeared one day... nobody knew he was part of the squad and then the emojis appeared! As he said, \"How could I not\" join us?"
+    },
+    "bailey" : {
+        "image" : "bailey.png",
+        "name" : "Bailey L",
+        "caption" : "Been around since build, she has a bit of an insight as to how much fun is had at LHDs... She has no idea how much fun there will be at Share though!"
     }
 }
