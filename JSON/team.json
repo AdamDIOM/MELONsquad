@@ -197,5 +197,10 @@
         "image" : "sashrika.png",
         "name" : "Sashrika",
         "caption" : "Lurked in the channel for a while... got spotted so decided to join us - best decision of the century!!"
+    },
+    "aaron" : {
+        "image" : "aaron.png",
+        "name" : "Aaron",
+        "caption" : "Thought he'd joined ages ago but never satisfied the conditions... who cares, he's made it to the squad now!"
     }
 }
