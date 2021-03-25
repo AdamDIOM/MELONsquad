@@ -202,5 +202,10 @@
         "image" : "aaron.png",
         "name" : "Aaron",
         "caption" : "Thought he'd joined ages ago but never satisfied the conditions... who cares, he's made it to the squad now!"
+    },
+    "michael" : {
+        "image" : "michael.png",
+        "name" : "Michael",
+        "caption" : "He appeared one day... nobody knew he was part of the squad and then the emojis appeared! As he said, \"How could I not\" join us?"
     }
 }
