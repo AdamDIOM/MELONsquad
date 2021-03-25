@@ -192,5 +192,10 @@
         "image" : "zaza.png",
         "name" : "Zaza",
         "caption" : "Melons are yummy. But when life gives you melons, you're dyslexic"
+    },
+    "sashrika" : {
+        "image" : "sashrika.png",
+        "name" : "Sashrika",
+        "caption" : "Lurked in the channel for a while... got spotted so decided to join us - best decision of the century!!"
     }
 }
