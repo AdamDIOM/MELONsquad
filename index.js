@@ -139,7 +139,7 @@ async function Art(){
 
 async function Events(){
     section.innerHTML = `
-        <h1 id=\"sectionHeading\">Events - Coming soon...</h1>
+        <h1 id=\"sectionHeading\">Events</h1>
         <select id="eventSelector" name="event" onchange="ChangeEvent()"></select>
         <div id="eventContent"></div>
     `

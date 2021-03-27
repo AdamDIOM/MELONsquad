@@ -254,7 +254,7 @@ iframe{
     float:left;
     transition: 0.3s;
     margin:1%;
-    margin-top:-1%;
+    margin-top:0%;
     padding-bottom:1%;
     height:auto;
 }
@@ -272,6 +272,10 @@ iframe{
     transition: 0.3s;
     margin:1%;
     height:auto;
+}
+
+#eventImage:hover{
+    box-shadow: 0 8px 16px 5px rgba(0,0,0,0.5);
 }
 
 #eventImage img{
