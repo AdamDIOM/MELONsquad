@@ -100,6 +100,19 @@ async function navBar(){
         //console.log(link)
         navList.innerHTML += `<a href="#${json[link].link}"><li onclick="${json[link].onclick}">${json[link].text}</li></a>`
     }
+    navList.innerHTML += `<li id="audioSwapButton" onclick="AudioSwap()" style="margin-top:2vh;">Pause Audio</li>`
+}
+
+function AudioSwap(){
+    currentText = document.getElementById("audioSwapButton").innerHTML;
+    if(currentText == "Pause Audio"){
+        document.getElementById("audioSwapButton").innerHTML = "Play Audio";
+        document.getElementById("background").pause();
+    }
+    if(currentText == "Play Audio"){
+        document.getElementById("audioSwapButton").innerHTML = "Pause Audio";
+        document.getElementById("background").play();
+    }
 }
 
 function MELON(){
@@ -132,7 +145,11 @@ async function History(){
 }
 
 async function Art(){
-    section.innerHTML = "<h1 id=\"sectionHeading\">Art</h1>"
+    section.innerHTML = `<h1 id=\"sectionHeading\">Art</h1>
+        <audio id="asmr" autoplay>
+            <source src="Assets/Music/Will ASMR.mp3" type="audio/mpeg">
+        </audio>
+    `
     art = await AddImageBoxes("Art", "art", true);
     section.innerHTML += art;
 }
@@ -173,7 +190,9 @@ async function ChangeEvent(){
 
     console.log(document.getElementById("eventSelector").value)
     console.log(events[document.getElementById("eventSelector").value].name)
-    eventSection.innerHTML = `<h2>${events[document.getElementById("eventSelector").value].name}</h2>`
+    eventSection.innerHTML = `<h2>${events[document.getElementById("eventSelector").value].name}</h2>
+    <iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/${events[document.getElementById("eventSelector").value].sounds}?controls=0&autoplay=1\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>
+    `
     for(image in events[document.getElementById("eventSelector").value].images){
         console.log(image)
         eventSection.innerHTML += `
