@@ -140,7 +140,7 @@ async function Art(){
 async function Events(){
     section.innerHTML = `
         <h1 id=\"sectionHeading\">Events - Coming soon...</h1>
-        <select id="eventSelector" name="event" onchange="ChangeEvent()" />
+        <select id="eventSelector" name="event" onchange="ChangeEvent()"></select>
         <div id="eventContent"></div>
     `
 
@@ -173,11 +173,12 @@ async function ChangeEvent(){
 
     console.log(document.getElementById("eventSelector").value)
     console.log(events[document.getElementById("eventSelector").value].name)
+    eventSection.innerHTML = `<h2>${events[document.getElementById("eventSelector").value].name}</h2>`
     for(image in events[document.getElementById("eventSelector").value].images){
-        console.log()
+        console.log(image)
         eventSection.innerHTML += `
-            <div id="eventImage>
-                <img src="Assets/Graphics/${events[document.getElementById("eventSelector").value].name}/">
+            <div id="eventImage">
+                <img src="Assets/Graphics/${events[document.getElementById("eventSelector").value].name}/${events[document.getElementById("eventSelector").value].images[image]}.png">
             </div>
         `
     }
