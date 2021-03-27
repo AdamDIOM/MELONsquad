@@ -66,6 +66,12 @@ async function ChoosePage(ending){
         case "#art":
             await Art();
             break;
+        case "#event":
+            await Events();
+            break;
+        case "#events":
+            await Events();
+            break;
         case "#recipes":
             await Recipes();
             break;
@@ -109,7 +115,7 @@ function About(){
 }
 
 async function TeamMembers(){
-    section.innerHTML = "<h1 id=\"sectionHeading\">The Squad</h1>"
+    section.innerHTML = "<h1 id=\"sectionHeading\">The Squad</h1> <iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/BnTdfA5aTpY?controls=0&autoplay=1\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
     team = await AddImageBoxes("Team", "team");
     section.innerHTML += team;
 }
@@ -129,6 +135,52 @@ async function Art(){
     section.innerHTML = "<h1 id=\"sectionHeading\">Art</h1>"
     art = await AddImageBoxes("Art", "art", true);
     section.innerHTML += art;
+}
+
+async function Events(){
+    section.innerHTML = `
+        <h1 id=\"sectionHeading\">Events - Coming soon...</h1>
+        <select id="eventSelector" name="event" onchange="ChangeEvent()" />
+        <div id="eventContent"></div>
+    `
+
+    const response = await fetch("JSON/events.json")
+    .then(response => response.json());
+    events = response;
+    console.log(events);
+
+    var select = document.getElementById("eventSelector");
+    var option = document.createElement("option");
+    option.value = "Default";
+    option.id = "default";
+    option.innerHTML = "Select an Event";
+    select.appendChild(option);
+    for(eventOption in events){
+        var option = document.createElement("option");
+        option.innerHTML = events[eventOption].name;
+        option.value = eventOption;
+        select.appendChild(option);
+    };
+
+}
+
+async function ChangeEvent(){
+    document.getElementById("default").disabled = "disabled";
+    var eventSection = document.getElementById("eventContent")
+    const response = await fetch("JSON/events.json")
+    .then(response => response.json());
+    events = response;
+
+    console.log(document.getElementById("eventSelector").value)
+    console.log(events[document.getElementById("eventSelector").value].name)
+    for(image in events[document.getElementById("eventSelector").value].images){
+        console.log()
+        eventSection.innerHTML += `
+            <div id="eventImage>
+                <img src="Assets/Graphics/${events[document.getElementById("eventSelector").value].name}/">
+            </div>
+        `
+    }
 }
 
 async function Recipes(){
