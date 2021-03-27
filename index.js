@@ -1,5 +1,5 @@
 async function MELONsquad(){
-    navBar();
+    await navBar();
     console.log(window.location.href);
     if(window.location.href.includes("%23")){
         hash = window.location.href.indexOf("%");
@@ -122,10 +122,12 @@ function AudioSwap(){
 }
 
 function APause(){
+    console.log("pause");
     document.getElementById("audioSwapButton").innerHTML = "Play Audio";
     document.getElementById("background").pause();
 }
 function APlay(){
+    console.log("play");
     document.getElementById("audioSwapButton").innerHTML = "Pause Audio";
     document.getElementById("background").play();
 }
@@ -143,6 +145,7 @@ function About(){
 }
 
 async function TeamMembers(){
+    console.log("team");
     section.innerHTML = `
         <h1 id="sectionHeading">The Squad</h1> 
         <audio id="eventMusic" autoplay onplay="APause()" onended="APlay()">
