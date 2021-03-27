@@ -177,8 +177,15 @@ async function ChangeEvent(){
     for(image in events[document.getElementById("eventSelector").value].images){
         console.log(image)
         eventSection.innerHTML += `
-            <div id="eventImage">
-                <img src="Assets/Graphics/${events[document.getElementById("eventSelector").value].name}/${events[document.getElementById("eventSelector").value].images[image]}.png">
+        <siv id="outerEventImage">
+        <div id="eventImage">
+                <a target="_blank" href="Assets/Graphics/${events[document.getElementById("eventSelector").value].name}/${events[document.getElementById("eventSelector").value].images[image]}.png">    
+                
+                    <img src="Assets/Graphics/${events[document.getElementById("eventSelector").value].name}/${events[document.getElementById("eventSelector").value].images[image]}.png">
+               
+            </a>
+
+            </div>
             </div>
         `
     }
