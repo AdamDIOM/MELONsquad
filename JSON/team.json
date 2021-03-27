@@ -212,5 +212,10 @@
         "image" : "bailey.png",
         "name" : "Bailey L",
         "caption" : "Been around since build, she has a bit of an insight as to how much fun is had at LHDs... She has no idea how much fun there will be at Share though!"
+    },
+    "gorav" : {
+        "image" : "gorav.png",
+        "name" : "Gorav Agarwal",
+        "caption" : "He's a real cool guy... new to the whole situ but ready to learn and share!"
     }
 }
