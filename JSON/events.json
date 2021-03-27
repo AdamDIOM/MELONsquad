@@ -1,4 +1,13 @@
 {
+    "asmr" : {
+        "name" : "ASMR With Will",
+        "description" : "Will has a great microphone. Jack calls him <i>dongle boi</i>. Come for the fun of ASMR!",
+        "images" : [
+
+        ],
+        "sounds" : "Will ASMR.mp3",
+        "src" : "local"
+    },
     "bake" : {
         "name" : "Baking Streams",
         "description" : "Join some of our members as they craft some great food live on stream!",
@@ -10,7 +19,8 @@
             "Loaf",
             "Sift"
         ],
-        "sounds" : "VDiiDOl5CKs"
+        "sounds" : "Bakeoff.mp3",
+        "src" : "local"
     },
     "espresso" : {
         "name" : "Espresso Hour",
@@ -23,7 +33,8 @@
             "Shot",
             "Spill"
         ],
-        "sounds" : "vLv7OXB39rA"
+        "sounds" : "Coffee Sounds",
+        "src" : "local"
     },
     "karaoke" : {
         "name" : "Karaoke Night",
@@ -32,7 +43,8 @@
             "Avocado",
             "Duet"
         ],
-        "sounds" : "P_1tcJjQWmg"
+        "sounds" : "Drumroll.mp3",
+        "src" : "local"
     },
     "pizza" : {
         "name" : "Virtual Pizza Party",
@@ -45,6 +57,7 @@
             "Top",
             "Weirdough"
         ],
-        "sounds" : "bRMBgvXa7cw"
+        "sounds" : "Pizza Sounds.mp3",
+        "src" : "local"
     }
 }

@@ -25,11 +25,17 @@ async function MELONsquad(){
     }
     else{
         ending = window.location.href.substring(pos,pos2);
-        await ChoosePage(ending);
+        text = await ChoosePage(ending);
 
-        anchor = window.location.href.substring(pos2 + 1).toLowerCase();
-        console.log("second: " + anchor);
-        scrollSmoothTo(anchor);
+        if(text == "events"){
+            theEvent = window.location.href.substring(pos2 + 1).toLowerCase();
+            SelectEvent(theEvent);
+        }
+        else{
+            anchor = window.location.href.substring(pos2 + 1).toLowerCase();
+            console.log("second: " + anchor);
+            scrollSmoothTo(anchor);
+        }
 
     }
     console.log("ending: " + ending);
@@ -50,37 +56,37 @@ async function ChoosePage(ending){
     switch(ending.toLowerCase()){
         case "#about":
             About()
-            break;
+            return "about"
         case "#team":
             await TeamMembers();
-            break;
+            return "squad"
         case "#squad":
             await TeamMembers();
-            break;
+            return "squad"
         case "#gang":
             await TeamMembers();
-            break;
+            return "squad"
         case "#history":
             await History();
-            break;
+            return "history"
         case "#art":
             await Art();
-            break;
+            return "art"
         case "#event":
             await Events();
-            break;
+            return "events"
         case "#events":
             await Events();
-            break;
+            return "events"
         case "#recipes":
             await Recipes();
-            break;
+            return "recipes"
         case "#join":
             JoinSquad();
-            break;
+            return "join"
         case "#join-us":
             JoinSquad();
-            break;
+            return "join"
         default:    
             MELON();
             break;
@@ -113,6 +119,15 @@ function AudioSwap(){
         document.getElementById("audioSwapButton").innerHTML = "Pause Audio";
         document.getElementById("background").play();
     }
+}
+
+function APause(){
+    document.getElementById("audioSwapButton").innerHTML = "Play Audio";
+    document.getElementById("background").pause();
+}
+function APlay(){
+    document.getElementById("audioSwapButton").innerHTML = "Pause Audio";
+    document.getElementById("background").play();
 }
 
 function MELON(){
@@ -188,11 +203,40 @@ async function ChangeEvent(){
     .then(response => response.json());
     events = response;
 
+    console.log(window.location.href)
+
+    pos1 = window.location.href.indexOf("#")
+    pos2 = window.location.href.lastIndexOf("#");
+console.log(pos1 + ' ' + pos2)
+    if(pos1 == pos2){
+        window.location.href = window.location.href + '#' + events[document.getElementById("eventSelector").value].name.toLowerCase()[0]
+    }
+    else{
+        window.location.href = window.location.href.substring(0,pos2) + '#' + events[document.getElementById("eventSelector").value].name.toLowerCase()[0];
+    }
+    
+
     console.log(document.getElementById("eventSelector").value)
     console.log(events[document.getElementById("eventSelector").value].name)
-    eventSection.innerHTML = `<h2>${events[document.getElementById("eventSelector").value].name}</h2>
-    <iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/${events[document.getElementById("eventSelector").value].sounds}?controls=0&autoplay=1\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>
+    eventSection.innerHTML = `
+        <h2>${events[document.getElementById("eventSelector").value].name}</h2>
+        <p>${events[document.getElementById("eventSelector").value].description}</p>
     `
+    if(events[document.getElementById("eventSelector").value].src == "local"){
+        eventSection.innerHTML += `
+            <audio id="eventMusic" autoplay onplay="APause()" onended="APlay()">
+                <source src="Assets/Music/${events[document.getElementById("eventSelector").value].sounds}" type="audio/mpeg">
+            </audio>
+        `
+    }
+    else{
+        eventSection.innerHTML += `
+    <iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/${events[document.getElementById("eventSelector").value].sounds}?controls=0&autoplay=1\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen onplay="APause()" onended="APlay()"></iframe>`
+
+    }
+    
+    console.log("bake")
+    
     for(image in events[document.getElementById("eventSelector").value].images){
         console.log(image)
         eventSection.innerHTML += `
@@ -208,6 +252,35 @@ async function ChangeEvent(){
             </div>
         `
     }
+}
+
+function SelectEvent(theEvent){
+    console.log(theEvent);
+    var select = document.getElementById("eventSelector");
+    console.log("before switchin")
+    switch(theEvent){
+        case 'a':
+            console.log("asmr")
+            select.selectedIndex = 1;
+            break;
+        case 'b':
+            console.log("bake")
+            select.selectedIndex = 2;
+            break;
+        case 'e':
+            console.log("espresso")
+            select.selectedIndex = 3;
+            break;
+        case 'k':
+            console.log("karaoke")
+            select.selectedIndex = 4;
+            break;
+        case 'v':
+            console.log("pizza")
+            select.selectedIndex = 5;
+            break;
+    }
+    ChangeEvent();
 }
 
 async function Recipes(){
