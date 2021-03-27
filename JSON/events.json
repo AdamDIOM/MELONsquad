@@ -9,7 +9,8 @@
             "History",
             "Loaf",
             "Sift"
-        ]
+        ],
+        "sounds" : "VDiiDOl5CKs"
     },
     "espresso" : {
         "name" : "Espresso Hour",
@@ -21,7 +22,8 @@
             "Life",
             "Shot",
             "Spill"
-        ]
+        ],
+        "sounds" : "vLv7OXB39rA"
     },
     "karaoke" : {
         "name" : "Karaoke Night",
@@ -29,7 +31,8 @@
         "images" : [
             "Avocado",
             "Duet"
-        ]
+        ],
+        "sounds" : "P_1tcJjQWmg"
     },
     "pizza" : {
         "name" : "Virtual Pizza Party",
@@ -41,6 +44,7 @@
             "Pizza",
             "Top",
             "Weirdough"
-        ]
+        ],
+        "sounds" : "bRMBgvXa7cw"
     }
 }
