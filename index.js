@@ -143,7 +143,12 @@ function About(){
 }
 
 async function TeamMembers(){
-    section.innerHTML = "<h1 id=\"sectionHeading\">The Squad</h1> <iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/BnTdfA5aTpY?controls=0&autoplay=1\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
+    section.innerHTML = `
+        <h1 id="sectionHeading">The Squad</h1> 
+        <audio id="eventMusic" autoplay onplay="APause()" onended="APlay()">
+            <source src="Assets/Music/Wow.mp3" Type="audio/mpeg">
+        </audio>
+    `
     team = await AddImageBoxes("Team", "team");
     section.innerHTML += team;
 }
