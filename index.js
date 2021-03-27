@@ -223,6 +223,7 @@ console.log(pos1 + ' ' + pos2)
         <p>${events[document.getElementById("eventSelector").value].description}</p>
     `
     if(events[document.getElementById("eventSelector").value].src == "local"){
+        console.log("audio")
         eventSection.innerHTML += `
             <audio id="eventMusic" autoplay onplay="APause()" onended="APlay()">
                 <source src="Assets/Music/${events[document.getElementById("eventSelector").value].sounds}" type="audio/mpeg">
@@ -235,7 +236,6 @@ console.log(pos1 + ' ' + pos2)
 
     }
     
-    console.log("bake")
     
     for(image in events[document.getElementById("eventSelector").value].images){
         console.log(image)
@@ -258,7 +258,8 @@ function SelectEvent(theEvent){
     console.log(theEvent);
     var select = document.getElementById("eventSelector");
     console.log("before switchin")
-    switch(theEvent){
+    console.log(theEvent.toLowerCase()[0])
+    switch(theEvent.toLowerCase()[0]){
         case 'a':
             console.log("asmr")
             select.selectedIndex = 1;
