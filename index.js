@@ -109,7 +109,7 @@ async function navBar(){
         //console.log(link)
         navList.innerHTML += `<a href="#${json[link].link}"><li onclick="${json[link].onclick}">${json[link].text}</li></a>`
     }
-    navList.innerHTML += `<li id="audioSwapButton" onclick="AudioSwap()" style="margin-top:2vh;">Pause Audio</li>`
+    navList.innerHTML += `<li id="audioSwapButton" onclick="AudioSwap()" style="margin-top:2vh;">Play Audio</li>`
 }
 
 function AudioSwap(){
@@ -312,6 +312,11 @@ async function Recipes(){
     section.innerHTML += recipeString;
 }
 
+async function Schedule(){
+    console.log("schedule");
+    section.innerHTML = "<h1 id=\"sectionHeading\">LHD Share Schedule - Coming soon...</h1>"
+}
+
 function JoinSquad(){
     section.innerHTML = `
     <h1 id="sectionHeading">Join us!</h1>
@@ -330,6 +335,11 @@ function JoinSquad(){
         </ol>
     </div>
     `;
+}
+
+async function News(){
+    console.log("news");
+    section.innerHTML = "<h1 id=\"sectionHeading\">MELONsquad & BLAHAJgang in the News - Coming soon...</h1>"
 }
 
 async function AddImageBoxes(imageDirectory, jsonFile, link = false){
