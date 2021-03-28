@@ -81,6 +81,9 @@ async function ChoosePage(ending){
         case "#recipes":
             await Recipes();
             return "recipes"
+        case "#schedule":
+            await Schedule();
+            return "schedule"
         case "#join":
             JoinSquad();
             return "join"
