@@ -217,5 +217,10 @@
         "image" : "gorav.png",
         "name" : "Gorav Agarwal",
         "caption" : "He's a real cool guy... new to the whole situ but ready to learn and share!"
+    },
+    "anuhya" : {
+        "image" : "anuhya",
+        "name" : "Anuhya",
+        "caption" : "She has <i><b>AMAZING</b></i> photo editing skills! Have you seen her art in the <a href=\"#art\">art section</a>?"
     }
 }
