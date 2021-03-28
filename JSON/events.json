@@ -3,7 +3,9 @@
         "name" : "ASMR With Will",
         "description" : "Will has a great microphone. Jack calls him <i>dongle boi</i>. Come for the fun of ASMR!",
         "images" : [
-
+            "Crunch",
+            "Tingles",
+            "Tap"
         ],
         "sounds" : "Will ASMR.mp3",
         "src" : "local"
