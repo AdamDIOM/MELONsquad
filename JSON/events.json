@@ -24,7 +24,7 @@
     },
     "espresso" : {
         "name" : "Espresso Hour",
-        "desrciption" : "This is where Will will shine. Come join us, probably not for an hour, where we'll have time for coffee & chats!",
+        "description" : "This is where Will will shine. Come join us, probably not for an hour, where we'll have time for coffee & chats!",
         "images" : [
             "Cocoa",
             "Decaf",
@@ -33,7 +33,7 @@
             "Shot",
             "Spill"
         ],
-        "sounds" : "Coffee Sounds",
+        "sounds" : "Coffee Sounds.mp3",
         "src" : "local"
     },
     "karaoke" : {
