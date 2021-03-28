@@ -34,9 +34,19 @@
         "onclick" : "Recipes()",
         "text" : "Recipes"
     },
+    "schedule" : {
+        "link" : "schedule",
+        "onclick" : "Schedule()",
+        "text" : "Schedule"
+    },
     "join" : {
         "link" : "join",
         "onclick" : "JoinSquad()",
         "text" : "Join us!"
+    },
+    "news" : {
+        "link" : "news",
+        "onclick" : "News()",
+        "text" : "In the News"
     }
 }
