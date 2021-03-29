@@ -131,7 +131,7 @@
     "mara" : {
         "image" : "mara.png",
         "name" : "Mara",
-        "caption" : "Goes by the nickname milk, but can't actually have milk. 10/10 nickname choice. Mara is awsome so we tried super hard to get her into the squad!"
+        "caption" : "Goes by the nickname milk, but can't actually have milk. 10/10 nickname choice. Mara is a fallen MELONsquad soldier. RIP. We will miss you :("
     },
     "reese" : {
         "image" : "reese.png",
@@ -162,5 +162,65 @@
         "image" : "hana.png",
         "name" : "Hana",
         "caption" : "Originally thought MELONsquad was separate to <a target=\"_blank\" href=\"https://blahajgang.lol\">BLAHAJgang</a> and wanted to stay loyal... It hasn't been that way for a looooong time!"
+    },
+    "indrashis" : {
+        "image" : "indrashis.png",
+        "name" : "Indrashis Mitra",
+        "caption" : "Ex-member of guild EquiCode. Regret nothing. Joined the BEST SQUAD EVER!!(though late :P )"
+    },
+     "renjie" : {
+        "image" : "rj.png",
+        "name" : "Ren Jie (RJ)",
+        "caption" : "Thought that the melons looked tasty, joined the MELONsquad to get his fair share of melons.."
+    },
+    "saket" : {
+        "image" : "saket.png",
+        "name" : "Saket Sarin",
+        "caption" : "Winning is for kids but he's here for the memes. We're feelin' good like we should!"
+    },
+    "alestor" : {
+        "image" : "alestor.png",
+        "name" : "Alestor Aldous",
+        "caption" : "He's been on the StreamYard a jolly few times and knows what to expect. Don't mess with Alestor or he'll hit you with some magic Ubuntu wizardry..."
+    },
+    "jedi" : {
+        "image" : "jedi.png",
+        "name" : "NoSchopeJedi",
+        "caption" : "\"The best thing about a boolean is that even if you are wrong, you are only off by a bit\" - Jedi"
+    },
+    "zaza" : {
+        "image" : "zaza.png",
+        "name" : "Zaza",
+        "caption" : "Melons are yummy. But when life gives you melons, you're dyslexic"
+    },
+    "sashrika" : {
+        "image" : "sashrika.png",
+        "name" : "Sashrika",
+        "caption" : "Lurked in the channel for a while... got spotted so decided to join us - best decision of the century!!"
+    },
+    "aaron" : {
+        "image" : "aaron.png",
+        "name" : "Aaron",
+        "caption" : "Thought he'd joined ages ago but never satisfied the conditions... who cares, he's made it to the squad now!"
+    },
+    "michael" : {
+        "image" : "michael.png",
+        "name" : "Michael",
+        "caption" : "He appeared one day... nobody knew he was part of the squad and then the emojis appeared! As he said, \"How could I not\" join us?"
+    },
+    "bailey" : {
+        "image" : "bailey.png",
+        "name" : "Bailey L",
+        "caption" : "Been around since build, she has a bit of an insight as to how much fun is had at LHDs... She has no idea how much fun there will be at Share though!"
+    },
+    "gorav" : {
+        "image" : "gorav.png",
+        "name" : "Gorav Agarwal",
+        "caption" : "He's a real cool guy... new to the whole situ but ready to learn and share!"
+    },
+    "anuhya" : {
+        "image" : "anuhya",
+        "name" : "Anuhya",
+        "caption" : "She has <i><b>AMAZING</b></i> photo editing skills! Have you seen her art in the <a href=\"#art\">art section</a>?"
     }
 }

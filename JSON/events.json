@@ -1,0 +1,65 @@
+{
+    "asmr" : {
+        "name" : "ASMR With Will",
+        "description" : "Will has a great microphone. Jack calls him <i>dongle boi</i>. Come for the fun of ASMR!",
+        "images" : [
+            "Crunch",
+            "Tingles",
+            "Tap"
+        ],
+        "sounds" : "Will ASMR.mp3",
+        "src" : "local"
+    },
+    "bake" : {
+        "name" : "Baking Streams",
+        "description" : "Join some of our members as they craft some great food live on stream!",
+        "images" : [
+            "BreadHanded",
+            "Cream",
+            "Donut",
+            "History",
+            "Loaf",
+            "Sift"
+        ],
+        "sounds" : "Bakeoff.mp3",
+        "src" : "local"
+    },
+    "espresso" : {
+        "name" : "Espresso Hour",
+        "description" : "This is where Will will shine. Come join us, probably not for an hour, where we'll have time for coffee & chats!",
+        "images" : [
+            "Cocoa",
+            "Decaf",
+            "Excitement",
+            "Life",
+            "Shot",
+            "Spill"
+        ],
+        "sounds" : "Coffee Sounds.mp3",
+        "src" : "local"
+    },
+    "karaoke" : {
+        "name" : "Karaoke Night",
+        "description" : "Come have a fun time with <i>no shame</i> whatsoever. Sing a party classic or a modern tune — it's up to you.",
+        "images" : [
+            "Avocado",
+            "Duet"
+        ],
+        "sounds" : "Drumroll.mp3",
+        "src" : "local"
+    },
+    "pizza" : {
+        "name" : "Virtual Pizza Party",
+        "description" : "Who doesn't love pizza? We love pizza here at BLAHAJgang so why not join us? Even if you don't have a pizza it's gonna be a lot of laughs!",
+        "images" : [
+            "Bread",
+            "Grate",
+            "History",
+            "Pizza",
+            "Top",
+            "Weirdough"
+        ],
+        "sounds" : "Pizza Sounds.mp3",
+        "src" : "local"
+    }
+}

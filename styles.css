@@ -147,7 +147,7 @@ iframe{
 
 /*css for imagebox as seen in index.js*/
 
-#wideBox{
+.wideBox{
     width:75vw;
     max-height:20vh;
     max-width:98%;
@@ -157,7 +157,7 @@ iframe{
     margin-top: 3.5vh;
 }
 
-#wideBox:hover{
+.wideBox:hover{
     background-color:#d22b3f;
 }
 
@@ -197,7 +197,7 @@ iframe{
     color:#f4c4c4;
     margin:0;
 }
-#historyOuter #wideBox{
+#historyOuter .wideBox{
     max-height:10vh;
     height:12.5vw;
     margin-top:1.5vh;
@@ -232,12 +232,66 @@ a:active{
     color:#f4c4c4;
 }
 
-#blahaj{
+#blahajpic{
     width:70vw;
     max-height:56vh;
     max-width:56vh;
 }
 
-#footer iframe{
+iframe{
     display:none;
+}
+
+#eventContent{
+    /*background-color:green;*/
+}
+
+#outerEventImage{
+    /*background-color: green;
+    background-color: black;*/
+    width:30%;
+    display:float;
+    float:left;
+    transition: 0.3s;
+    margin:1%;
+    margin-top:0%;
+    padding-bottom:1%;
+    height:auto;
+}
+
+#eventImage a{
+    margin:0px;
+}
+
+#eventImage{
+    /*background-color: black;*/
+    width:98%;
+    display:float;
+    float:left;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    margin:1%;
+    height:auto;
+}
+
+#eventImage:hover{
+    box-shadow: 0 8px 16px 5px rgba(0,0,0,0.5);
+}
+
+#eventImage img{
+    width:calc(100%);
+    padding:0vw;
+    display:block;
+}
+@media (max-width: 1500px){
+    #outerEventImage{
+        /*background-color: green;*/
+        width:48%;
+    }
+}
+@media (max-width: 1000px){
+    #outerEventImage{
+        /*background-color: green;*/
+        width:98%;
+    }
 }
