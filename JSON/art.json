@@ -38,5 +38,11 @@
         "image"     : "Jacklyn from MLH-1.png",
         "name"      : "Jacklyn from MLH",
         "caption"   : "Who needs Stonks when you have Shonks??"
+    },
+    "turnip-1" :{
+        "image"     : "turnip-1.png",
+        "name"      : "Turnip",
+        "caption"   : "Melon styled Blahaj"
     }
+    
 }
