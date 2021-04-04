@@ -48,5 +48,10 @@
         "link" : "news",
         "onclick" : "News()",
         "text" : "In the News"
+    },
+    "links" : {
+        "link" : "links",
+        "onclick" : "Links()",
+        "text" : "Important Links"
     }
 }
