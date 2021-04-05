@@ -312,10 +312,44 @@ async function Recipes(){
     section.innerHTML += recipeString;
 }
 
-async function Schedule(){
+// created by Ayush
+async function Schedule() {
     console.log("schedule");
     section.innerHTML = "<h1 id=\"sectionHeading\">LHD Share Schedule - Coming soon...</h1>"
+    section.innerHTML = "";
+    hHistory = await innerSchedule();
+    section.innerHTML += hHistory;
 }
+  
+async function innerSchedule() {
+    const response = await fetch("JSON/schedule.json")
+    .then((response) => response.json());
+    json = response;
+  
+    historystring = "";
+  
+    for (hacker in json) {
+        historystring += `
+                <div id="historyOuter">
+                    <h2>${json[hacker].name}</h2>
+                `;
+      for (hackathon in json[hacker].hackathons) {
+        historystring += `<a href="${json[hacker].hackathons[hackathon].link}" target="_blank" id="noformat">`;
+  
+        historystring += AddImageBox(
+          "Graphics/LHD.png",
+          json[hacker].hackathons[hackathon].name,
+          json[hacker].hackathons[hackathon].prize
+        );
+        historystring += `</a>`;
+      }
+  
+      historystring += `</div>`;
+      //console.log(historystring);
+    }
+    //console.log(historystring);
+    return historystring;
+  }
 
 function JoinSquad(){
     section.innerHTML = `
