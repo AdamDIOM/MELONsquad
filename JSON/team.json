@@ -222,5 +222,10 @@
         "image" : "anuhya",
         "name" : "Anuhya",
         "caption" : "She has <i><b>AMAZING</b></i> photo editing skills! Have you seen her art in the <a href=\"#art\">art section</a>?"
-    }
+    },
+    "nandan" : {
+        "image" : "nandan.png",
+        "name" : "Nandan U",
+        "caption" : "He doesn't know how to do much but he does it with a passion. He is participating in his first hackathon and is willing to stick around. He also likes melons and has watermelon scented shampoo."
+    },
 }
