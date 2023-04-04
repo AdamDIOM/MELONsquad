@@ -21,7 +21,11 @@
         "caption"   : "Leader of <a target=\"_blank\" href=\"https://blahajgang.lol\">BLAHAJgang</a>, unable to consume melon (allergies - RIP). Honorary fellow of MELONsquad."
 
     },
-    "stephen" : {
+    "paul" : {
+        "image"     : "paul.png",
+        "name"      : "Paul",
+        "caption"   : "Paul wanted to be here so he could do a !Light session."
+    },"stephen" : {
         "image"     : "stephen.png",
         "name"      : "Stephen",
         "caption"   : "Has the <a target=\"_blank\" href=\"https://blahajgang.lol\">BLAHAJgang</a> profile pic but didn't join. Honorary fellow of MELONsquad because we like him."
