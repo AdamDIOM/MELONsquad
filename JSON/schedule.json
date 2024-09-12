@@ -1,120 +1,91 @@
 {
-    "March 28th" : {
-        "name" : "March 28th (Sun)",
+    "June 27th" : {
+        "name" : "June 27th (Sun)",
         "hackathons" : [
             {
-                "name" : "2:00 PM ET",
-                "prize" : "LHD: Share Opening Ceremony",
+                "name" : "9:00 AM PT | 12:00 PM ET | 5:00 PM UK | 9:30 PM IST",
+                "prize" : "INIT 2022 Opening Ceremony",
                 "link" : "http://twitch.tv/mlh"
             },
             {
-                "name" : "4:00 PM ET",
-                "prize" : "!Light - Share Edition",
-                "link" : "https://organize.mlh.io/participants/events/6730-light-lhd-share-edition"
+                "name" : "11:00 AM PT | 2:00 PM ET | 7:00 PM UK | 11:30 PM IST",
+                "prize" : "The Future of Tech Education Panel",
+                "link" : "https://organize.mlh.io/participants/events/7111-the-future-of-tech-education-panel"
             },
             {
-                "name" : "6:00 PM ET",
-                "prize" : "Set up a Project on GitHub",
-                "link" : "https://organize.mlh.io/participants/events/6732-set-up-a-project-on-github"
+                "name" : "1:00 PM PT | 4:00 PM ET | 9:00 PM UK | 1:30 AM IST",
+                "prize" : "Create a Starter Pack for Someone Else",
+                "link" : "https://organize.mlh.io/participants/events/7048-create-a-starter-pack-for-someone-else"
+            },
+            {
+                "name" : "5:00 PM PT | 8:00 PM ET | 1:00 AM UK | 5:30 AM IST",
+                "prize" : "Sketchful.io",
+                "link" : "https://organize.mlh.io/participants/events/7078-sketchful-mini-event"
             }
+            
         ]
     },
-    "March 29th" : {
-        "name" : "Mar 29th (Mon)",
+    "June 28th" : {
+        "name" : "June 28th (Mon)",
         "hackathons" : [
             {
-                "name" : "2:30 AM ET",
-                "prize" : "Hello, World in a New Language",
-                "link" : "https://organize.mlh.io/participants/events/6733-hello-world-in-a-new-language"
-            },
-            {
-                "name" : "5:00 AM ET",
-                "prize" : "!Light - Share Edition",
-                "link" : "https://organize.mlh.io/participants/events/6735-light-share-edition"
-            },
-            {
-                "name" : "8:00 AM ET",
+                "name" : "11:30 PM PT | 2:30 AM ET | 7:30 AM UK | 12:00 PM IST",
                 "prize" : "Introduction to Threat Hunting using Elastic Security",
-                "link" : "https://organize.mlh.io/participants/events/6740-introduction-to-threat-hunting-using-elastic-security"
+                "link" : "https://organize.mlh.io/participants/events/7097-introduction-to-threat-hunting-using-elastic-security"
             },
             {
-                "name" : "10:15 AM ET",
-                "prize" : "Basics of Blockchain with Horizen",
-                "link" : "https://organize.mlh.io/participants/events/6698-basics-of-blockchain-with-horizen"
+                "name" : "2:00 AM PT | 5:00 AM ET | 10:00 AM UK | 2:30 PM IST",
+                "prize" : "Sketchful.io",
+                "link" : "https://organize.mlh.io/participants/events/7080-sketchful-mini-event"
             },
             {
-                "name" : "12:00 PM ET",
-                "prize" : "LHD: Share Leaderboard Update",
-                "link" : "http://twitch.tv/mlh"
+                "name" : "6:00 AM PT | 9:00 AM ET | 2:00 PM UK | 6:30 PM IST",
+                "prize" : "Build a Calculator",
+                "link" : "https://organize.mlh.io/participants/events/7049-build-a-calculator"
+            },
+            {
+                "name" : "10:00 AM PT | 1:00 PM ET | 6:00 PM UK | 10:30 PM IST",
+                "prize" : "!Light",
+                "link" : "https://organize.mlh.io/participants/events/7081-light"
+            },
+            {
+                "name" : "11:00 AM PT | 2:00 PM ET | 7:00 PM UK | 11:30 PM IST",
+                "prize" : "Build and Deploy a Full Stack Web App with AWS",
+                "link" : "https://organize.mlh.io/participants/events/7098-build-and-deploy-a-full-stack-web-app-with-aws"
             },{
-                "name" : "1:00 PM ET",
-                "prize" : "Getting Started on the Cloud with Linode",
-                "link" : "https://organize.mlh.io/participants/events/6782-getting-started-on-the-cloud-with-linode"
-            },{
-                "name" : "3:30 PM ET",
+                "name" : "5:00 PM PT | 8:00 PM ET | 1:00 AM UK | 5:30 AM IST",
+                "prize" : "Create a Reminder Application",
+                "link" : "https://organize.mlh.io/participants/events/7050-create-a-reminder-application"
+            }
+        ]
+    },
+    "June 29th" : {
+        "name" : "June 29th (Tues)",
+        "hackathons" : [
+           {
+                "name" : "11:30 PM PT | 2:30 AM ET | 7:30 AM UK | 12:00 PM IST",
+                "prize" : "Create a Health App",
+                "link" : "https://organize.mlh.io/participants/events/7051-create-a-health-app"
+            },
+            {
+                "name" : "6:00 AM PT | 9:00 AM ET | 2:00 PM UK | 6:30 PM IST",
+                "prize" : "!Light",
+                "link" : "https://organize.mlh.io/participants/events/7082-light"
+            },
+            {
+                "name" : "11:00 AM PT | 2:00 PM ET | 7:00 PM UK | 11:30 PM IST",
+                "prize" : "Create a Hack to help you Travel",
+                "link" : "https://organize.mlh.io/participants/events/7074-create-a-hack-to-help-you-travel"
+            },
+            {
+                "name" : "3:00 PM PT | 6:00 PM ET | 11:00 PM UK | 3:30 AM IST",
                 "prize" : "Chrome Dino",
-                "link" : "https://organize.mlh.io/participants/events/6747-chrome-dino"
+                "link" : "https://organize.mlh.io/participants/events/7083-chrome-dino"
             },
             {
-                "name" : "6:00 PM ET",
-                "prize" : "Create a Web Scraping Application that helps your Community",
-                "link" : "https://organize.mlh.io/participants/events/6745-create-a-web-scraping-application-that-helps-your-community"
-            },
-            {
-                "name" : "8:00 PM ET",
-                "prize" : "Geo Guesser",
-                "link" : "https://organize.mlh.io/participants/events/6817-geoguesser"
-            }
-        ]
-    },
-    "April 4th" : {
-        "name" : "April 4th (Sun)",
-        "hackathons" : [
-            {
-                "name" : "2:00 AM ET",
-                "prize" : "Share Party",
-                "link" : "https://organize.mlh.io/participants/events/6731-lhd-share-share-party"
-            },
-            {
-                "name" : "3:00 AM ET",
-                "prize" : "Create a Social Media Clone",
-                "link" : "https://organize.mlh.io/participants/events/6739-create-a-social-media-clone"
-            },
-            {
-                "name" : "5:00 AM ET",
-                "prize" : "Cup Stacking",
-                "link" : "https://organize.mlh.io/participants/events/6738-cup-stacking"
-            },
-            {
-                "name" : "10:00 AM ET",
-                "prize" : "Baking with MLH Cofounder Jon",
-                "link" : "https://organize.mlh.io/participants/events/6767-baking-with-jon"
-            },{
-                "name" : "12:00 PM ET",
-                "prize" : "LHD: Share Leaderboard Update",
-                "link" : "http://twitch.tv/mlh"
-            },{
-                "name" : "2:30 PM ET",
-                "prize" : "Create a Website for Your Guild",
-                "link" : "https://organize.mlh.io/participants/events/6737-building-a-melonsquad-web-app-with-a-spice-of-ninjas"
-            },{
-                "name" : "4:30 PM ET",
-                "prize" : "Share Party",
-                "link" : "https://organize.mlh.io/participants/events/6734-lhd-share-share-party"
-            },{
-                "name" : "5:30 PM ET",
-                "prize" : "Automate Something to Share Daily",
-                "link" : "https://organize.mlh.io/participants/events/6736-automate-something-to-share-daily"
-            }
-        ]
-    },
-    "April 5th" : {
-        "name" : "April 5th (Mon)",
-        "hackathons" : [
-            {
-                "name" : "12:00 PM ET",
-                "prize" : "LHD: Share Closing Ceremony",
-                "link" : "http://twitch.tv/mlh"
+                "name" : "6:00 PM PT | 9:00 PM ET | 2:00 AM UK | 6:30 AM IST",
+                "prize" : "Introduction to Threat Hunting using Elastic Security",
+                "link" : "https://organize.mlh.io/participants/events/7100-introduction-to-threat-hunting-using-elastic-security"
             }
         ]
     }
